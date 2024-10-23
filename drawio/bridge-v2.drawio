@@ -1,17 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="MPC Relayer" id="_NhQ68Ce09rdGa0aBCM7">
-    <mxGraphModel dx="848" dy="3630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
+    <mxGraphModel dx="848" dy="4457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="thYXyoPydOWhGMwMgY5e-137" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="-1420" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-129" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
-          <mxGeometry x="95" y="-687" width="90" height="40" as="geometry" />
+          <mxGeometry x="85" y="-2077" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-79" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-1420" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="-2810" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-78" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-1430" width="120" height="40" as="geometry" />
+          <mxGeometry x="50" y="-2820" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-43" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="590" y="960" width="120" height="40" as="geometry" />
@@ -160,10 +163,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-48" value="Relayer node 1..n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-1440" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-49" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Quand la clé privée est-elle générée ?&lt;br&gt;&lt;/h1&gt;&lt;p&gt;La clé privée est généralement générée&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;au &lt;strong&gt;déploiement initial du système de bridge relayer&lt;/strong&gt;,&amp;nbsp;&lt;/li&gt;&lt;li&gt;lors de l&#39;&lt;b&gt;intégration de nouveaux relayers&lt;/b&gt; au réseau.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-1670" width="710" height="120" as="geometry" />
+          <mxGeometry x="40" y="-2830" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-50" target="thYXyoPydOWhGMwMgY5e-62">
           <mxGeometry relative="1" as="geometry" />
@@ -174,7 +174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-50" value="secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-1440" width="70" height="40" as="geometry" />
+          <mxGeometry x="320" y="-2830" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-62" target="thYXyoPydOWhGMwMgY5e-75">
           <mxGeometry relative="1" as="geometry" />
@@ -185,16 +185,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-62" value="fragment de clé publique 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="615" y="-1440" width="130" height="40" as="geometry" />
+          <mxGeometry x="605" y="-2830" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-73" value="&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Schéma de Seuil : T-of-N&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Le schéma utilisé pour distribuer la clé privée est souvent appelé un schéma de seuil, par exemple &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;T-of-N&lt;/strong&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; :&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;N&lt;/strong&gt; est le nombre total de participants (relayers ou nœuds).&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;T&lt;/strong&gt; est le nombre minimum de participants nécessaires pour signer une transaction.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Cela signifie que la clé privée est divisée en N fragments et il faut au moins T participants pour générer une signature ou réaliser une opération nécessitant cette clé. Tant que T fragments sont réunis, la signature peut être produite, mais personne ne possède jamais la clé privée complète.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-1890" width="600" height="210" as="geometry" />
+        <mxCell id="thYXyoPydOWhGMwMgY5e-73" value="&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Schéma de Seuil : T-of-N&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Le schéma utilisé pour distribuer la clé privée est souvent appelé un schéma de seuil, par exemple &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;T-of-N&lt;/strong&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; :&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;N&lt;/strong&gt; est le nombre total de participants (relayers ou nœuds).&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;T&lt;/strong&gt; est le nombre minimum de participants nécessaires pour signer une transaction.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Cela signifie que la clé privée est divisée en N fragments et il faut au moins T participants pour générer une signature ou réaliser une opération nécessitant cette clé. Tant que T fragments sont réunis, la signature peut être produite, mais personne ne possède jamais la clé privée complète.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Quand la clé privée est-elle générée ?&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;La clé privée est généralement générée&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;au&amp;nbsp;déploiement initial du système de bridge relayer,&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;lors de l&#39;intégration de nouveaux relayers&amp;nbsp;au réseau.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;labelBackgroundColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-3280" width="600" height="320" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-74" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;génération de clé distribuée&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;(DKG)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-1470" width="190" height="30" as="geometry" />
+          <mxGeometry x="150" y="-2860" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-75" value="Relayer node n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="615" y="-1320" width="130" height="40" as="geometry" />
+          <mxGeometry x="605" y="-2710" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-83">
           <mxGeometry relative="1" as="geometry" />
@@ -220,8 +220,8 @@
         <mxCell id="thYXyoPydOWhGMwMgY5e-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="118" y="-1180" />
-              <mxPoint x="675" y="-1180" />
+              <mxPoint x="108" y="-2570" />
+              <mxPoint x="665" y="-2570" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -231,13 +231,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-80" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-1140" width="90" height="40" as="geometry" />
+          <mxGeometry x="40" y="-2530" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-81" value="1. Initialisation du protocole ou ajout d&#39;un nouveau node relayer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-1510" width="720" height="30" as="geometry" />
+          <mxGeometry x="30" y="-2900" width="720" height="30" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-82" value="2. Échange et validation des partages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-1240" width="720" height="30" as="geometry" />
+          <mxGeometry x="30" y="-2630" width="720" height="30" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-85">
           <mxGeometry relative="1" as="geometry" />
@@ -269,7 +269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-83" value="Relayer node 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-1140" width="90" height="40" as="geometry" />
+          <mxGeometry x="330" y="-2530" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-92">
           <mxGeometry relative="1" as="geometry" />
@@ -290,8 +290,8 @@
         <mxCell id="thYXyoPydOWhGMwMgY5e-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-80">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="675" y="-1060" />
-              <mxPoint x="118" y="-1060" />
+              <mxPoint x="665" y="-2450" />
+              <mxPoint x="108" y="-2450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -301,22 +301,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-85" value="Relayer node ..n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="-1140" width="100" height="40" as="geometry" />
+          <mxGeometry x="640" y="-2530" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-89" value="Fragment validé de 1 et n" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-990" width="90" height="40" as="geometry" />
+          <mxGeometry x="330" y="-2380" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-92" value="Fragment validé&lt;div&gt;de 1 et 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
-          <mxGeometry x="655" y="-990" width="90" height="40" as="geometry" />
+          <mxGeometry x="645" y="-2380" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-95" value="Fragment validé&lt;div&gt;de 2 et n&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-990" width="90" height="40" as="geometry" />
+          <mxGeometry x="40" y="-2380" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-109" value="&lt;li&gt;&lt;strong&gt;Chaque participant choisit une valeur secrète aléatoire&lt;/strong&gt;. Ce secret est utilisé pour générer une partie de la clé distribuée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ils calculent une contribution partielle&lt;/strong&gt; à partir de leur secret. Cette contribution est souvent une valeur publique qui peut être partagée avec les autres participants sans révéler le secret sous-jacent.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-1370" width="525" height="90" as="geometry" />
+          <mxGeometry x="40" y="-2760" width="525" height="90" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-110" value="3. Calculs des fragments de la clé" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-770" width="720" height="30" as="geometry" />
+          <mxGeometry x="30" y="-2160" width="720" height="30" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-111" target="thYXyoPydOWhGMwMgY5e-114">
           <mxGeometry relative="1" as="geometry" />
@@ -327,34 +327,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-111" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-697" width="90" height="40" as="geometry" />
+          <mxGeometry x="230" y="-2087" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-112" target="thYXyoPydOWhGMwMgY5e-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-112" value="Fragment reçus et validés&lt;div&gt;des n nodes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
-          <mxGeometry x="85" y="-697" width="90" height="40" as="geometry" />
+          <mxGeometry x="75" y="-2087" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-114" value="fragment de clé&lt;div&gt;privée&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
-          <mxGeometry x="500" y="-697" width="90" height="40" as="geometry" />
+          <mxGeometry x="490" y="-2087" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-117" value="&lt;li&gt;&lt;strong&gt;Combinaison des fragments&lt;/strong&gt; : Chaque participant utilise les données reçues des autres pour calculer un fragment local de la clé.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fragment de la clé privée&lt;/strong&gt; : Ce fragment est une partie de la clé privée. Seul un nombre suffisant de fragments (au moins T) pourra être utilisé pour signer des transactions ou reconstituer une signature.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-620" width="525" height="90" as="geometry" />
+          <mxGeometry x="80" y="-2010" width="525" height="90" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-119" value="4. Sécurité et validation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="41" y="-440" width="719" height="30" as="geometry" />
+          <mxGeometry x="31" y="-1830" width="719" height="30" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-120" value="&lt;li&gt;&lt;strong&gt;Chaque relayer envoie une version chiffrée&lt;/strong&gt; de sa contribution aux autres relayers. Cela signifie que les autres participants peuvent utiliser ces données sans connaître les secrets individuels.&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Chaque participant reçoit les contributions des autres&lt;/strong&gt;. Avec ces contributions, chaque relayer est capable de valider que les autres relayers ont bien envoyé des fragments valides.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-900" width="525" height="73" as="geometry" />
+          <mxGeometry x="30" y="-2290" width="525" height="73" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-122" value="&lt;li&gt;Les fragments générés par chaque participant sont corrects et conformes.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Les fragments peuvent être combinés pour créer des signatures valides, mais personne ne peut reconstituer la clé privée complète à partir d&#39;un fragment seul.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-270" width="525" height="50" as="geometry" />
+          <mxGeometry x="90" y="-1660" width="525" height="50" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-123" target="thYXyoPydOWhGMwMgY5e-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-123" value="fragment de clé&lt;div&gt;privée&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
-          <mxGeometry x="85" y="-370" width="90" height="40" as="geometry" />
+          <mxGeometry x="75" y="-1760" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-124" target="thYXyoPydOWhGMwMgY5e-126">
           <mxGeometry relative="1" as="geometry" />
@@ -365,10 +365,74 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-124" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="-370" width="90" height="40" as="geometry" />
+          <mxGeometry x="230" y="-1760" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-126" value="fragment validé et sécurisé" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="-370" width="90" height="40" as="geometry" />
+          <mxGeometry x="560" y="-1760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-130" value="Protocole de Génération de Clé Distribuée (DKG)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;gradientColor=#CCCCFF;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-2950" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-131" value="Utilisation de la Clé Privée Distribuée : Signature Distribuée" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;gradientColor=#CCCCFF;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-1570" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-132" target="thYXyoPydOWhGMwMgY5e-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-136" value="Signer la transaction&amp;nbsp;&lt;div&gt;par T des N relayers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-134">
+          <mxGeometry x="-0.1167" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-132" value="Transaction à signer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-1430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-133" target="thYXyoPydOWhGMwMgY5e-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-140" value="Signer la Tx via fragment&amp;nbsp;&lt;div&gt;de clé privée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-139">
+          <mxGeometry x="-0.2178" y="2" relative="1" as="geometry">
+            <mxPoint x="17" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-133" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-1430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-135" value="1, Processus de Signature via MPC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="35.5" y="-1510" width="719" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-138" target="thYXyoPydOWhGMwMgY5e-143">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="-1350" />
+              <mxPoint x="690" y="-1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-145" value="partage des Tx signée" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-144">
+          <mxGeometry x="-0.3417" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-138" value="Tx signée partiellement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-1430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-143" target="thYXyoPydOWhGMwMgY5e-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-148" value="reconstitution des&lt;div&gt;fragments de la Tx signée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-147">
+          <mxGeometry x="-0.0038" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-143" value="Relayer ..n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-1310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-146" value="Tx signée reconstituée" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCFF99;strokeColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="335" y="-1310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="thYXyoPydOWhGMwMgY5e-149" value="&lt;li&gt;&lt;strong&gt;Demande de signature&lt;/strong&gt; : Une transaction est soumise, et le réseau de relayers doit la signer.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature distribuée via MPC&lt;/strong&gt; : Chaque relayer utilise son fragment de la clé privée pour calculer une contribution partielle à la signature.&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Aucune clé privée complète n&#39;est jamais reconstituée&lt;/strong&gt;. Chaque relayer contribue seulement avec son propre fragment.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Combinaison des contributions&lt;/strong&gt; : Les contributions des &lt;strong&gt;T participants&lt;/strong&gt; sont combinées pour produire une &lt;strong&gt;signature valide&lt;/strong&gt; sur la transaction.&lt;ul&gt;&lt;li&gt;Cette signature est identique à celle qu&#39;aurait produite une clé privée complète, mais elle est générée de manière distribuée.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1240" width="710" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
