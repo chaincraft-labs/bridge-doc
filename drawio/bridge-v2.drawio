@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2" pages="2">
   <diagram name="MPC Relayer" id="_NhQ68Ce09rdGa0aBCM7">
     <mxGraphModel dx="848" dy="4457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
@@ -436,6 +436,89 @@
         </mxCell>
         <mxCell id="thYXyoPydOWhGMwMgY5e-150" value="&lt;strong style=&quot;font-size: 16px;&quot;&gt;MPC&lt;/strong&gt; est utilisé pour la génération et la gestion distribuée des clés privées&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;TSS&lt;/strong&gt; est spécifiquement orienté vers la &lt;strong style=&quot;font-size: 16px;&quot;&gt;création de signatures&lt;/strong&gt; sécurisées et distribuées&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="31" y="-1010" width="489" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="USY-s4bwg46s1qRToUk8" name="Relayer network">
+    <mxGraphModel dx="1072" dy="2279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-9" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-8" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-4" value="Execute transactions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFHjdkFk9kFrVm9TLBEm-3">
+          <mxGeometry x="0.0141" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-15" value="p2p&lt;div&gt;secret libp2p key&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFHjdkFk9kFrVm9TLBEm-14">
+          <mxGeometry x="-0.0713" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-1" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-2" value="destination&lt;div&gt;chain&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-5" value="&lt;ul&gt;&lt;li&gt;Relayer uses a private key to execute Tx on the destination chain&lt;/li&gt;&lt;li&gt;Use one private key per domain&lt;/li&gt;&lt;li&gt;Do not use this private key for something else&lt;/li&gt;&lt;li&gt;Check the balance of the private key&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;secret libp2p key&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;used to secure libp2p communication between relayers&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;format of the key is RSA 2048 with base64 protobuf encoding (minimum)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;format of the key may be ed25519 for signature and curve25519 for encryption&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;better perormance&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;more secure&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;to protect against quantic attacks use of NTRU or Lizard&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;b&gt;Persistent storage&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;save MPC private key share&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="650" width="470" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-6" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="FFHjdkFk9kFrVm9TLBEm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="FFHjdkFk9kFrVm9TLBEm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-16" value="Execute transactions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFHjdkFk9kFrVm9TLBEm-13">
+          <mxGeometry x="0.2022" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-11" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-12" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-17" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="60" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-20" target="FFHjdkFk9kFrVm9TLBEm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-20" value="MPC Authority" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="-250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-23" target="FFHjdkFk9kFrVm9TLBEm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-23" value="MPC network&amp;nbsp;&lt;div&gt;authority&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-26" value="Authority knows&lt;div&gt;&lt;ul&gt;&lt;li&gt;Relayer network address&lt;/li&gt;&lt;li&gt;Peer ID (determined from secret key)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-180" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
