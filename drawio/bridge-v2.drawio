@@ -1,223 +1,85 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4" pages="3">
   <diagram name="MPC Relayer" id="_NhQ68Ce09rdGa0aBCM7">
-    <mxGraphModel dx="848" dy="4457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
+    <mxGraphModel dx="5604" dy="6448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="thYXyoPydOWhGMwMgY5e-137" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-137" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="342" y="-1420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-129" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-129" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="85" y="-2077" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-79" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-79" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="-2810" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-78" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-78" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="-2820" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-43" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="590" y="960" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-42" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="580" y="950" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-2" target="thYXyoPydOWhGMwMgY5e-6">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-48" target="thYXyoPydOWhGMwMgY5e-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-2" target="thYXyoPydOWhGMwMgY5e-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-2" value="Node 1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="240" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-4" target="thYXyoPydOWhGMwMgY5e-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-4" target="thYXyoPydOWhGMwMgY5e-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-4" target="thYXyoPydOWhGMwMgY5e-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-4" value="Node 2" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-5" target="thYXyoPydOWhGMwMgY5e-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-5" target="thYXyoPydOWhGMwMgY5e-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-5" target="thYXyoPydOWhGMwMgY5e-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-5" target="thYXyoPydOWhGMwMgY5e-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-5" value="Node n" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-6" value="blockchain&lt;div&gt;A&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry y="150" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-7" value="blockchain&lt;div&gt;B&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;" vertex="1" parent="1">
-          <mxGeometry x="520" y="150" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-22" value="1. &lt;b&gt;Génération et Gestion Distribuée des Clés Privées (MPC)&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#ff3333&quot;&gt;l&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;a clé privée est générée&lt;/font&gt; et &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;partagée entre plusieurs relayers&lt;/strong&gt;&lt;span style=&quot;&quot;&gt; via un protocole MPC&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;par qui et a quel moment ?&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;b&gt;Signatures Distribuées pour Exécuter les Transactions&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Lorsqu’un utilisateur initie un transfert, les smart contracts émettent un event lu par les relayers demandant de signer et d’exécuter des transactions pour bloquer et débloquer les fonds.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;MPC permet aux relayers de signer collectivement la transaction&lt;/span&gt;&lt;span style=&quot;&quot;&gt; requise sur chaque blockchain (A et B) sans jamais révéler la clé privée complète.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;Un nombre minimum de relayers (&lt;b&gt;T-of-N&lt;/b&gt;, seuil cryptographique) est requis pour générer une signature valide. Cela garantit que même si certains relayers sont compromis ou hors ligne, le système reste opérationnel et sécurisé.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;Validation et Exécution des Transactions Cross-Chain&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;Une fois les transactions signées via MPC, &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;les relayers soumettent&lt;/font&gt;&lt;/b&gt;&amp;nbsp;(&lt;font color=&quot;#ff3333&quot;&gt;un relayer choisie au hasard exécute les transactions&lt;/font&gt;) les transactions à la blockchain d’origine (chaîne A) pour signaler le blocage des fonds, et à la blockchain cible (chaîne B) pour débloquer les fonds ou effectuer d&#39;autres opérations comme le paiement des frais de gas.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;MPC assure que cette signature distribuée est sécurisée et empêche qu’un seul relayer ne prenne le contrôle du processus.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;strong style=&quot;font-size: 12px;&quot;&gt;4. Tolérance aux Pannes et Sécurité Renforcée&lt;/strong&gt; :&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Grâce à la structure &lt;strong&gt;T-of-N&lt;/strong&gt; (où T est le nombre minimum de relayers nécessaires pour générer une signature), le système est tolérant aux pannes. Même si certains relayers deviennent malveillants ou inopérants, le processus de signature et d&#39;exécution peut toujours avoir lieu tant que T relayers collaborent.&lt;/li&gt;&lt;li&gt;Cela assure une décentralisation robuste, où le transfert inter-chaînes peut être complété de manière sécurisée sans avoir besoin de faire confiance à une seule entité.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;5. &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;Élimination des Risques de Compromission de Clé Privée&lt;/strong&gt;&lt;span style=&quot;&quot;&gt; :&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Puisque la clé privée n&#39;est jamais reconstruite en entier à un seul endroit, même si un relayer est compromis, il est impossible pour l’attaquant de voler la clé ou de contrôler les transactions à lui seul.&lt;/li&gt;&lt;li&gt;Le protocole MPC réduit ainsi considérablement le risque de compromission, par rapport à un modèle où un seul acteur détient une clé privée complète.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="20" y="360" width="800" height="510" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-23" target="thYXyoPydOWhGMwMgY5e-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-28" value="blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#3333FF;" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-25">
-          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
-            <mxPoint x="9" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-23" target="thYXyoPydOWhGMwMgY5e-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-29" value="blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;fontColor=#3333FF;" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-27">
-          <mxGeometry x="-0.1725" relative="1" as="geometry">
-            <mxPoint x="6" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-23" value="Utilisateur initie un transfert via UI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="30" y="920" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-24" target="thYXyoPydOWhGMwMgY5e-24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="940" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="470" y="930" />
-              <mxPoint x="470" y="950" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-35" value="émet un event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0080;" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-34">
-          <mxGeometry x="-0.325" y="-1" relative="1" as="geometry">
-            <mxPoint x="-4" y="9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-24" value="blockchain A&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="280" y="920" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-26" value="blockchain B&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="280" y="960" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-30" target="thYXyoPydOWhGMwMgY5e-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-40" value="scan les events blockchain A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4C0099;" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-38">
-          <mxGeometry x="-0.6343" relative="1" as="geometry">
-            <mxPoint x="-66" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-30" target="thYXyoPydOWhGMwMgY5e-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-41" value="&lt;span style=&quot;color: rgb(76, 0, 153);&quot;&gt;scan les events blockchain B&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-39">
-          <mxGeometry x="-0.54" y="-1" relative="1" as="geometry">
-            <mxPoint x="-49" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-30" target="thYXyoPydOWhGMwMgY5e-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-46" value="valide et signe la&lt;div&gt;transaction a exécuter via&lt;/div&gt;&lt;div&gt;MPC&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-45">
-          <mxGeometry x="-0.0865" relative="1" as="geometry">
-            <mxPoint y="7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-30" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="570" y="940" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-26" target="thYXyoPydOWhGMwMgY5e-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="970" as="sourcePoint" />
-            <mxPoint x="400" y="990" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="470" y="970" />
-              <mxPoint x="470" y="990" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-37" value="émet un event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0080;" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-36">
-          <mxGeometry x="-0.325" y="-1" relative="1" as="geometry">
-            <mxPoint x="-4" y="9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-44" value="blockchain A&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1140" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-47" value="blockchain B&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1180" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-48" target="thYXyoPydOWhGMwMgY5e-50">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-52" value="génère une valeur&amp;nbsp;&lt;div&gt;secrète aléatoire&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-51">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-52" value="génère une valeur&amp;nbsp;&lt;div&gt;secrète aléatoire&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-51" vertex="1" connectable="0">
           <mxGeometry x="-0.0333" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-48" value="Relayer node 1..n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-48" value="Relayer node 1..n" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="-2830" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-50" target="thYXyoPydOWhGMwMgY5e-62">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-50" target="thYXyoPydOWhGMwMgY5e-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-64" value="calcul d&#39;un fragment de clé&amp;nbsp;&lt;div&gt;publique à partir du secret&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-63">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-64" value="calcul d&#39;un fragment de clé&amp;nbsp;&lt;div&gt;publique à partir du secret&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-63" vertex="1" connectable="0">
           <mxGeometry x="-0.3178" relative="1" as="geometry">
             <mxPoint x="23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-50" value="secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-50" value="secret" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="-2830" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-62" target="thYXyoPydOWhGMwMgY5e-75">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-62" target="thYXyoPydOWhGMwMgY5e-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-77" value="partage du fragment de&amp;nbsp;&lt;div&gt;&amp;nbsp;la clé publique&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-76">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-77" value="partage du fragment de&amp;nbsp;&lt;div&gt;&amp;nbsp;la clé publique&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-76" vertex="1" connectable="0">
           <mxGeometry x="-0.2312" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-62" value="fragment de clé publique 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-62" value="fragment de clé publique 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="-2830" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-73" value="&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Schéma de Seuil : T-of-N&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Le schéma utilisé pour distribuer la clé privée est souvent appelé un schéma de seuil, par exemple &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;T-of-N&lt;/strong&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; :&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;N&lt;/strong&gt; est le nombre total de participants (relayers ou nœuds).&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;T&lt;/strong&gt; est le nombre minimum de participants nécessaires pour signer une transaction.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Cela signifie que la clé privée est divisée en N fragments et il faut au moins T participants pour générer une signature ou réaliser une opération nécessitant cette clé. Tant que T fragments sont réunis, la signature peut être produite, mais personne ne possède jamais la clé privée complète.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Quand la clé privée est-elle générée ?&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;La clé privée est généralement générée&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;au&amp;nbsp;déploiement initial du système de bridge relayer,&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;lors de l&#39;intégration de nouveaux relayers&amp;nbsp;au réseau.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;labelBackgroundColor=default;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-73" value="&lt;h3 style=&quot;font-size: 24px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Schéma de Seuil : T-of-N&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Le schéma utilisé pour distribuer la clé privée est souvent appelé un schéma de seuil, par exemple &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;T-of-N&lt;/strong&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt; :&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;N&lt;/strong&gt; est le nombre total de participants (relayers ou nœuds).&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;T&lt;/strong&gt; est le nombre minimum de participants nécessaires pour signer une transaction.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Cela signifie que la clé privée est divisée en N fragments et il faut au moins T participants pour générer une signature ou réaliser une opération nécessitant cette clé. Tant que T fragments sont réunis, la signature peut être produite, mais personne ne possède jamais la clé privée complète.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Quand la clé privée est-elle générée ?&lt;br&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 12px;&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;La clé privée est généralement générée&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;au&amp;nbsp;déploiement initial du système de bridge relayer,&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;lors de l&#39;intégration de nouveaux relayers&amp;nbsp;au réseau.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;labelBackgroundColor=default;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="20" y="-3280" width="600" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-74" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;génération de clé distribuée&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;(DKG)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-74" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;génération de clé distribuée&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;(DKG)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="150" y="-2860" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-75" value="Relayer node n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-75" value="Relayer node n" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="-2710" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-83">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-87" value="envoie une version chiffrée de&amp;nbsp;&lt;div&gt;sa contribution&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-84">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-87" value="envoie une version chiffrée de&amp;nbsp;&lt;div&gt;sa contribution&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-84" vertex="1" connectable="0">
           <mxGeometry x="-0.5383" y="3" relative="1" as="geometry">
             <mxPoint x="82" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-99" value="1 vers 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-84">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-99" value="1 vers 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-84" vertex="1" connectable="0">
           <mxGeometry x="-0.5717" y="3" relative="1" as="geometry">
             <mxPoint x="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-95">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-97" value="Validation de fragment envoyés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-96">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-97" value="Validation de fragment envoyés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-96" vertex="1" connectable="0">
           <mxGeometry x="0.1448" y="1" relative="1" as="geometry">
             <mxPoint x="9" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-85">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="thYXyoPydOWhGMwMgY5e-80" target="thYXyoPydOWhGMwMgY5e-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="108" y="-2570" />
@@ -225,69 +87,69 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-105" value="1 vers n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-104">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-105" value="1 vers n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-104" vertex="1" connectable="0">
           <mxGeometry x="-0.0599" y="3" relative="1" as="geometry">
             <mxPoint x="-222" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-80" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-80" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="-2530" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-81" value="1. Initialisation du protocole ou ajout d&#39;un nouveau node relayer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-81" value="1. Initialisation du protocole ou ajout d&#39;un nouveau node relayer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="30" y="-2900" width="720" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-82" value="2. Échange et validation des partages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-82" value="2. Échange et validation des partages" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="30" y="-2630" width="720" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-85">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-88" value="envoie une version chiffrée de&amp;nbsp;&lt;div&gt;sa contribution&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-86">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-88" value="envoie une version chiffrée de&amp;nbsp;&lt;div&gt;sa contribution&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-86" vertex="1" connectable="0">
           <mxGeometry x="-0.0786" y="3" relative="1" as="geometry">
             <mxPoint x="16" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-102" value="2 vers n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-86">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-102" value="2 vers n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-86" vertex="1" connectable="0">
           <mxGeometry x="-0.0493" y="1" relative="1" as="geometry">
             <mxPoint x="-78" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-89">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-91" value="Validation de fragment envoyés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-90">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-91" value="Validation de fragment envoyés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-90" vertex="1" connectable="0">
           <mxGeometry x="-0.4187" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="47" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-80">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="thYXyoPydOWhGMwMgY5e-83" target="thYXyoPydOWhGMwMgY5e-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-100" value="2 vers 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-98">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-100" value="2 vers 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-98" vertex="1" connectable="0">
           <mxGeometry x="-0.014" relative="1" as="geometry">
             <mxPoint x="83" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-83" value="Relayer node 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-83" value="Relayer node 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="-2530" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-92">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-94" value="Validation de fragment envoyés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-93">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-94" value="Validation de fragment envoyés" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-93" vertex="1" connectable="0">
           <mxGeometry x="-0.0583" relative="1" as="geometry">
             <mxPoint y="26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-83">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-103" value="n vers 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-101">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-103" value="n vers 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-101" vertex="1" connectable="0">
           <mxGeometry x="-0.0808" y="2" relative="1" as="geometry">
             <mxPoint x="77" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-80">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="thYXyoPydOWhGMwMgY5e-85" target="thYXyoPydOWhGMwMgY5e-80" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="665" y="-2450" />
@@ -295,113 +157,113 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-107" value="n vers 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-106">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-107" value="n vers 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-106" vertex="1" connectable="0">
           <mxGeometry x="-0.0128" y="2" relative="1" as="geometry">
             <mxPoint x="245" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-85" value="Relayer node ..n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-85" value="Relayer node ..n" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="-2530" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-89" value="Fragment validé de 1 et n" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-89" value="Fragment validé de 1 et n" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="330" y="-2380" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-92" value="Fragment validé&lt;div&gt;de 1 et 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-92" value="Fragment validé&lt;div&gt;de 1 et 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="645" y="-2380" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-95" value="Fragment validé&lt;div&gt;de 2 et n&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-95" value="Fragment validé&lt;div&gt;de 2 et n&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="40" y="-2380" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-109" value="&lt;li&gt;&lt;strong&gt;Chaque participant choisit une valeur secrète aléatoire&lt;/strong&gt;. Ce secret est utilisé pour générer une partie de la clé distribuée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ils calculent une contribution partielle&lt;/strong&gt; à partir de leur secret. Cette contribution est souvent une valeur publique qui peut être partagée avec les autres participants sans révéler le secret sous-jacent.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-109" value="&lt;li&gt;&lt;strong&gt;Chaque participant choisit une valeur secrète aléatoire&lt;/strong&gt;. Ce secret est utilisé pour générer une partie de la clé distribuée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Ils calculent une contribution partielle&lt;/strong&gt; à partir de leur secret. Cette contribution est souvent une valeur publique qui peut être partagée avec les autres participants sans révéler le secret sous-jacent.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="40" y="-2760" width="525" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-110" value="3. Calculs des fragments de la clé" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-110" value="3. Calculs des fragments de la clé" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="30" y="-2160" width="720" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-111" target="thYXyoPydOWhGMwMgY5e-114">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-111" target="thYXyoPydOWhGMwMgY5e-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-116" value="calcul son propre&amp;nbsp;&lt;div&gt;fragment de la clé privée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-115">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-116" value="calcul son propre&amp;nbsp;&lt;div&gt;fragment de la clé privée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-115" vertex="1" connectable="0">
           <mxGeometry x="-0.3844" y="2" relative="1" as="geometry">
             <mxPoint x="27" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-111" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-111" value="Relayer node 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="-2087" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-112" target="thYXyoPydOWhGMwMgY5e-111">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-112" target="thYXyoPydOWhGMwMgY5e-111" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-112" value="Fragment reçus et validés&lt;div&gt;des n nodes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-112" value="Fragment reçus et validés&lt;div&gt;des n nodes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="1" vertex="1">
           <mxGeometry x="75" y="-2087" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-114" value="fragment de clé&lt;div&gt;privée&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-114" value="fragment de clé&lt;div&gt;privée&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" parent="1" vertex="1">
           <mxGeometry x="490" y="-2087" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-117" value="&lt;li&gt;&lt;strong&gt;Combinaison des fragments&lt;/strong&gt; : Chaque participant utilise les données reçues des autres pour calculer un fragment local de la clé.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fragment de la clé privée&lt;/strong&gt; : Ce fragment est une partie de la clé privée. Seul un nombre suffisant de fragments (au moins T) pourra être utilisé pour signer des transactions ou reconstituer une signature.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-117" value="&lt;li&gt;&lt;strong&gt;Combinaison des fragments&lt;/strong&gt; : Chaque participant utilise les données reçues des autres pour calculer un fragment local de la clé.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Fragment de la clé privée&lt;/strong&gt; : Ce fragment est une partie de la clé privée. Seul un nombre suffisant de fragments (au moins T) pourra être utilisé pour signer des transactions ou reconstituer une signature.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="80" y="-2010" width="525" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-119" value="4. Sécurité et validation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-119" value="4. Sécurité et validation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="31" y="-1830" width="719" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-120" value="&lt;li&gt;&lt;strong&gt;Chaque relayer envoie une version chiffrée&lt;/strong&gt; de sa contribution aux autres relayers. Cela signifie que les autres participants peuvent utiliser ces données sans connaître les secrets individuels.&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Chaque participant reçoit les contributions des autres&lt;/strong&gt;. Avec ces contributions, chaque relayer est capable de valider que les autres relayers ont bien envoyé des fragments valides.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-120" value="&lt;li&gt;&lt;strong&gt;Chaque relayer envoie une version chiffrée&lt;/strong&gt; de sa contribution aux autres relayers. Cela signifie que les autres participants peuvent utiliser ces données sans connaître les secrets individuels.&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Chaque participant reçoit les contributions des autres&lt;/strong&gt;. Avec ces contributions, chaque relayer est capable de valider que les autres relayers ont bien envoyé des fragments valides.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="-2290" width="525" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-122" value="&lt;li&gt;Les fragments générés par chaque participant sont corrects et conformes.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Les fragments peuvent être combinés pour créer des signatures valides, mais personne ne peut reconstituer la clé privée complète à partir d&#39;un fragment seul.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-122" value="&lt;li&gt;Les fragments générés par chaque participant sont corrects et conformes.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Les fragments peuvent être combinés pour créer des signatures valides, mais personne ne peut reconstituer la clé privée complète à partir d&#39;un fragment seul.&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="90" y="-1660" width="525" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-123" target="thYXyoPydOWhGMwMgY5e-124">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-123" target="thYXyoPydOWhGMwMgY5e-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-123" value="fragment de clé&lt;div&gt;privée&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-123" value="fragment de clé&lt;div&gt;privée&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" parent="1" vertex="1">
           <mxGeometry x="75" y="-1760" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-124" target="thYXyoPydOWhGMwMgY5e-126">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-124" target="thYXyoPydOWhGMwMgY5e-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-128" value="validation des fragments&lt;div&gt;via mécanisme cryptographique&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-127">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-128" value="validation des fragments&lt;div&gt;via mécanisme cryptographique&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-127" vertex="1" connectable="0">
           <mxGeometry x="-0.2587" y="-2" relative="1" as="geometry">
             <mxPoint x="33" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-124" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-124" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="-1760" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-126" value="fragment validé et sécurisé" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-126" value="fragment validé et sécurisé" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="-1760" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-130" value="Protocole de Génération de Clé Distribuée (DKG)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;gradientColor=#CCCCFF;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-130" value="Protocole de Génération de Clé Distribuée (DKG)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;gradientColor=#CCCCFF;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="20" y="-2950" width="750" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-131" value="Utilisation de la Clé Privée Distribuée : Signature Distribuée" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;gradientColor=#CCCCFF;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-131" value="Utilisation de la Clé Privée Distribuée : Signature Distribuée" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;gradientColor=#CCCCFF;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="20" y="-1570" width="750" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-132" target="thYXyoPydOWhGMwMgY5e-133">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-132" target="thYXyoPydOWhGMwMgY5e-133" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-136" value="Signer la transaction&amp;nbsp;&lt;div&gt;par T des N relayers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-134">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-136" value="Signer la transaction&amp;nbsp;&lt;div&gt;par T des N relayers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-134" vertex="1" connectable="0">
           <mxGeometry x="-0.1167" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-132" value="Transaction à signer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-132" value="Transaction à signer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="-1430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-133" target="thYXyoPydOWhGMwMgY5e-138">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-133" target="thYXyoPydOWhGMwMgY5e-138" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-140" value="Signer la Tx via fragment&amp;nbsp;&lt;div&gt;de clé privée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-139">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-140" value="Signer la Tx via fragment&amp;nbsp;&lt;div&gt;de clé privée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-139" vertex="1" connectable="0">
           <mxGeometry x="-0.2178" y="2" relative="1" as="geometry">
             <mxPoint x="17" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-133" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-133" value="Relayer 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="-1430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-135" value="1, Processus de Signature via MPC+TSS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-135" value="1, Processus de Signature via MPC+TSS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;gradientColor=#E6E6E6;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="35.5" y="-1510" width="719" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-138" target="thYXyoPydOWhGMwMgY5e-143">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-138" target="thYXyoPydOWhGMwMgY5e-143" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="690" y="-1350" />
@@ -409,247 +271,598 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-145" value="partage des Tx signée" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-144">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-145" value="partage des Tx signée" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-144" vertex="1" connectable="0">
           <mxGeometry x="-0.3417" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-138" value="Tx signée partiellement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-138" value="Tx signée partiellement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="-1430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thYXyoPydOWhGMwMgY5e-143" target="thYXyoPydOWhGMwMgY5e-146">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="thYXyoPydOWhGMwMgY5e-143" target="thYXyoPydOWhGMwMgY5e-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-148" value="reconstitution des&lt;div&gt;fragments de la Tx signée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="thYXyoPydOWhGMwMgY5e-147">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-148" value="reconstitution des&lt;div&gt;fragments de la Tx signée&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="thYXyoPydOWhGMwMgY5e-147" vertex="1" connectable="0">
           <mxGeometry x="-0.0038" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-143" value="Relayer ..n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-143" value="Relayer ..n" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="-1310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-146" value="Tx signée reconstituée" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCFF99;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-146" value="Tx signée reconstituée" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCFF99;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="335" y="-1310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-149" value="&lt;li&gt;&lt;strong&gt;Demande de signature&lt;/strong&gt; : Une transaction est soumise, et le réseau de relayers doit la signer.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature distribuée via MPC&lt;/strong&gt; : Chaque relayer utilise son fragment de la clé privée pour calculer une contribution partielle à la signature.&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Aucune clé privée complète n&#39;est jamais reconstituée&lt;/strong&gt;. Chaque relayer contribue seulement avec son propre fragment.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Combinaison des contributions&lt;/strong&gt; : Les contributions des &lt;strong&gt;T participants&lt;/strong&gt; sont combinées pour produire une &lt;strong&gt;signature valide&lt;/strong&gt; sur la transaction.&lt;ul&gt;&lt;li&gt;Cette signature est identique à celle qu&#39;aurait produite une clé privée complète, mais elle est générée de manière distribuée.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-149" value="&lt;li&gt;&lt;strong&gt;Demande de signature&lt;/strong&gt; : Une transaction est soumise, et le réseau de relayers doit la signer.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature distribuée via MPC&lt;/strong&gt; : Chaque relayer utilise son fragment de la clé privée pour calculer une contribution partielle à la signature.&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Aucune clé privée complète n&#39;est jamais reconstituée&lt;/strong&gt;. Chaque relayer contribue seulement avec son propre fragment.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Combinaison des contributions&lt;/strong&gt; : Les contributions des &lt;strong&gt;T participants&lt;/strong&gt; sont combinées pour produire une &lt;strong&gt;signature valide&lt;/strong&gt; sur la transaction.&lt;ul&gt;&lt;li&gt;Cette signature est identique à celle qu&#39;aurait produite une clé privée complète, mais elle est générée de manière distribuée.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="50" y="-1240" width="710" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="thYXyoPydOWhGMwMgY5e-150" value="&lt;strong style=&quot;font-size: 16px;&quot;&gt;MPC&lt;/strong&gt; est utilisé pour la génération et la gestion distribuée des clés privées&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;TSS&lt;/strong&gt; est spécifiquement orienté vers la &lt;strong style=&quot;font-size: 16px;&quot;&gt;création de signatures&lt;/strong&gt; sécurisées et distribuées&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="thYXyoPydOWhGMwMgY5e-150" value="&lt;strong style=&quot;font-size: 16px;&quot;&gt;MPC&lt;/strong&gt; est utilisé pour la génération et la gestion distribuée des clés privées&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;TSS&lt;/strong&gt; est spécifiquement orienté vers la &lt;strong style=&quot;font-size: 16px;&quot;&gt;création de signatures&lt;/strong&gt; sécurisées et distribuées&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="31" y="-1010" width="489" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="USY-s4bwg46s1qRToUk8" name="Relayer network">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2482" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-9" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-9" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="660" y="450" width="360" height="354" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-8" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-8" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="150" width="360" height="354" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-2">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-4" value="Execute transactions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFHjdkFk9kFrVm9TLBEm-3">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-4" value="Execute transactions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FFHjdkFk9kFrVm9TLBEm-3" vertex="1" connectable="0">
           <mxGeometry x="0.0141" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-6">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-11">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-15" value="p2p&lt;div&gt;secret libp2p key&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFHjdkFk9kFrVm9TLBEm-14">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-15" value="p2p&lt;div&gt;secret libp2p key&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FFHjdkFk9kFrVm9TLBEm-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0713" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-17">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-1" target="FFHjdkFk9kFrVm9TLBEm-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-1" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-1" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="190" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-2" value="destination&lt;div&gt;chain&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#9999FF;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-2" value="destination&lt;div&gt;chain&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#9999FF;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="560" y="223" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-5" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Relayer uses a private key to execute Tx on the destination chain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Use one private key per domain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Do not use this private key for something else&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Check the balance of the private key&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Secret libp2p key&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;used to secure libp2p communication between relayers&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key is RSA 2048 with base64 protobuf encoding (minimum)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key may be ed25519 for signature and curve25519 for encryption&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;better perormance&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;more secure&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;to protect against quantic attacks use of NTRU or Lizard&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Persistent storage&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Location where to save MPC private key share&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Refresh topology map&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;After all the information is provided to authority, the team will regenerate &lt;b style=&quot;font-size: 12px;&quot;&gt;t&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;opology map&lt;/b&gt; and initiate key &lt;b style=&quot;font-size: 12px;&quot;&gt;resharing&lt;/b&gt; by calling the Bridge contract method with a new topology map hash.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="20" y="650" width="590" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-6" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-6" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="FFHjdkFk9kFrVm9TLBEm-12">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="FFHjdkFk9kFrVm9TLBEm-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="FFHjdkFk9kFrVm9TLBEm-2">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="FFHjdkFk9kFrVm9TLBEm-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-16" value="Execute transactions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFHjdkFk9kFrVm9TLBEm-13">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-16" value="Execute transactions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FFHjdkFk9kFrVm9TLBEm-13" vertex="1" connectable="0">
           <mxGeometry x="0.2022" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="WKKQ7slUlsZvzBeE3rAa-12">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-11" target="WKKQ7slUlsZvzBeE3rAa-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-11" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-11" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="790" y="570" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-12" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-12" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-17" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-17" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="110" y="356" width="60" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-20" target="FFHjdkFk9kFrVm9TLBEm-23">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-20" target="FFHjdkFk9kFrVm9TLBEm-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-20" value="MPC Authority" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-20" value="MPC Authority" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="675" y="-87" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-23" target="FFHjdkFk9kFrVm9TLBEm-1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFHjdkFk9kFrVm9TLBEm-23" target="FFHjdkFk9kFrVm9TLBEm-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFHjdkFk9kFrVm9TLBEm-23" target="FFHjdkFk9kFrVm9TLBEm-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-23" value="MPC network&amp;nbsp;&lt;div&gt;authority&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#FF3399;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-23" value="MPC network&amp;nbsp;&lt;div&gt;authority&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#FF3399;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="630" y="23" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FFHjdkFk9kFrVm9TLBEm-26" value="Authority knows&lt;div&gt;&lt;ul&gt;&lt;li&gt;Relayer network address&lt;/li&gt;&lt;li&gt;Peer IDs (determined from secret key)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FFHjdkFk9kFrVm9TLBEm-26" value="Authority knows&lt;div&gt;&lt;ul&gt;&lt;li&gt;Relayer network address&lt;/li&gt;&lt;li&gt;Peer IDs (determined from secret key)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="780" y="-87" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Transport&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;TCP&lt;/b&gt; : Recommandé pour les réseaux de blockchain où la fiabilité des données et la compatibilité avec les systèmes sont prioritaires. TCP est stable et bien supporté, parfait pour des réseaux blockchain classiques avec des nœuds complets.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Avantages&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Fiabilité des transmissions&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: TCP garantit que toutes les transactions et blocs sont reçus dans le bon ordre, ce qui est essentiel pour la synchronisation des blocs et la cohérence des données entre les nœuds.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Compatibilité élevée&lt;/b&gt;&amp;nbsp;: C’est le protocole de base supporté par tous les systèmes d’exploitation et les équipements réseau.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénients&lt;/b&gt;&amp;nbsp;:&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Latence&lt;/b&gt;&amp;nbsp;: TCP introduit une certaine latence en raison de ses mécanismes de contrôle des paquets et de vérification d’intégrité.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ralentissement&lt;/b&gt;&amp;nbsp;en cas de congestion réseau : TCP réduit son débit pour gérer les pertes de paquets, ce qui peut poser problème pour la rapidité de la propagation des blocs.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Recommandation&lt;/b&gt;&amp;nbsp;: TCP est un excellent choix pour un réseau de blockchain classique, notamment pour les nœuds complets où la fiabilité et la séquence des données sont plus critiques que la latence. Les blockchains comme Bitcoin utilisent principalement TCP pour sa robustesse.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;QUIC&lt;/b&gt; : Convient pour les blockchains à haute performance nécessitant des transmissions rapides et fiables. Pour des blockchains modernes orientées vers la performance, comme celles traitant de nombreuses transactions à grande vitesse, QUIC pourrait offrir des gains importants en latence et en efficacité.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Avantages&lt;/b&gt; :&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Faible latence&lt;/b&gt; : QUIC a été conçu pour être rapide, avec des temps de connexion et de transmission plus faibles que TCP.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Fiabilité&lt;/b&gt; : QUIC apporte la fiabilité de TCP tout en utilisant UDP, ce qui signifie qu’il peut être plus résilient aux pertes de paquets sans induire de délais significatifs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Multiplexage&lt;/b&gt; : Permet plusieurs flux indépendants dans une seule connexion, ce qui peut être utile pour synchroniser différents types de données (transactions, blocs) sans attente.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénients&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Support limité&lt;/b&gt; : Bien que QUIC gagne en popularité, tous les équipements réseau et systèmes n’ont pas encore adopté ce protocole, ce qui peut poser des problèmes d’interopérabilité.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Complexité d’implémentation&lt;/b&gt; : Mettre en œuvre QUIC peut être plus compliqué pour les nouveaux projets, en particulier pour assurer sa compatibilité avec des nœuds variés.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Recommandation&lt;/b&gt; : QUIC est bien adapté pour les réseaux de blockchain modernes nécessitant des performances élevées, particulièrement pour les blockchains orientées vers des transactions rapides. Son faible temps de latence et sa capacité de multiplexage en font un bon choix pour les systèmes blockchain à grande échelle ou à forte charge.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Transport&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;TCP&lt;/b&gt; : Recommandé pour les réseaux de blockchain où la fiabilité des données et la compatibilité avec les systèmes sont prioritaires. TCP est stable et bien supporté, parfait pour des réseaux blockchain classiques avec des nœuds complets.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Avantages&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Fiabilité des transmissions&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: TCP garantit que toutes les transactions et blocs sont reçus dans le bon ordre, ce qui est essentiel pour la synchronisation des blocs et la cohérence des données entre les nœuds.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Compatibilité élevée&lt;/b&gt;&amp;nbsp;: C’est le protocole de base supporté par tous les systèmes d’exploitation et les équipements réseau.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénients&lt;/b&gt;&amp;nbsp;:&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Latence&lt;/b&gt;&amp;nbsp;: TCP introduit une certaine latence en raison de ses mécanismes de contrôle des paquets et de vérification d’intégrité.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ralentissement&lt;/b&gt;&amp;nbsp;en cas de congestion réseau : TCP réduit son débit pour gérer les pertes de paquets, ce qui peut poser problème pour la rapidité de la propagation des blocs.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Recommandation&lt;/b&gt;&amp;nbsp;: TCP est un excellent choix pour un réseau de blockchain classique, notamment pour les nœuds complets où la fiabilité et la séquence des données sont plus critiques que la latence. Les blockchains comme Bitcoin utilisent principalement TCP pour sa robustesse.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;QUIC&lt;/b&gt; : Convient pour les blockchains à haute performance nécessitant des transmissions rapides et fiables. Pour des blockchains modernes orientées vers la performance, comme celles traitant de nombreuses transactions à grande vitesse, QUIC pourrait offrir des gains importants en latence et en efficacité.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Avantages&lt;/b&gt; :&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Faible latence&lt;/b&gt; : QUIC a été conçu pour être rapide, avec des temps de connexion et de transmission plus faibles que TCP.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Fiabilité&lt;/b&gt; : QUIC apporte la fiabilité de TCP tout en utilisant UDP, ce qui signifie qu’il peut être plus résilient aux pertes de paquets sans induire de délais significatifs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Multiplexage&lt;/b&gt; : Permet plusieurs flux indépendants dans une seule connexion, ce qui peut être utile pour synchroniser différents types de données (transactions, blocs) sans attente.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénients&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Support limité&lt;/b&gt; : Bien que QUIC gagne en popularité, tous les équipements réseau et systèmes n’ont pas encore adopté ce protocole, ce qui peut poser des problèmes d’interopérabilité.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Complexité d’implémentation&lt;/b&gt; : Mettre en œuvre QUIC peut être plus compliqué pour les nouveaux projets, en particulier pour assurer sa compatibilité avec des nœuds variés.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Recommandation&lt;/b&gt; : QUIC est bien adapté pour les réseaux de blockchain modernes nécessitant des performances élevées, particulièrement pour les blockchains orientées vers des transactions rapides. Son faible temps de latence et sa capacité de multiplexage en font un bon choix pour les systèmes blockchain à grande échelle ou à forte charge.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1225" y="1080" width="450" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Routage - publish/subscribe&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;&lt;b&gt;gossipsub :&amp;nbsp;&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Utilité&lt;/b&gt; : Protocol de référence pour les réseaux de grande envergure, adapté pour la production et les applications exigeantes.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Performance&lt;/b&gt; : Optimise l’utilisation de la bande passante et offre une résistance aux défaillances et attaques Sybil. Il comprend un mécanisme de &quot;gossip&quot; pour échanger des métadonnées au lieu des messages entiers, et un mode &quot;mesh&quot; pour gérer efficacement les sous-réseaux d&#39;abonnés.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Cas d’usage&lt;/b&gt; : Utilisé dans les blockchains (Ethereum 2.0, Filecoin, IPFS) et les réseaux P2P décentralisés, il assure une propagation robuste et efficace.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1245" y="1940" width="470" height="200" as="geometry" />
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Routage - publish/subscribe&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;gossipsub :&amp;nbsp;&lt;/b&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;strong style=&quot;font-weight: bold;&quot;&gt;Fonctionnement :&lt;/strong&gt; GossipSub améliore FloodSub en introduisant des concepts de gossip (bavardage), un protocole par lequel les nœuds échangent périodiquement des informations sur les messages qu’ils ont reçus sans les transmettre directement. Les messages ne sont donc transmis qu’aux pairs qui n’en disposent pas encore, limitant ainsi les duplications inutiles.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b&gt;Avantages&lt;/b&gt; : GossipSub réduit significativement l’utilisation de la bande passante, optimise les transmissions, et est plus résistant aux attaques Sybil (falsification de nœuds) ou aux attaques de censure.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b&gt;Inconvénients&lt;/b&gt; : Le protocole est plus complexe et requiert une certaine coordination entre nœuds pour fonctionner efficacement, ce qui peut ajouter une légère latence.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b&gt;Cas d’utilisation&lt;/b&gt; : GossipSub est privilégié dans les environnements distribués large échelle, comme IPFS ou certaines blockchains (par exemple, Ethereum 2.0) où la fiabilité et la bande passante sont critiques.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Utilité&lt;/b&gt; : Protocol de référence pour les réseaux de grande envergure, adapté pour la production et les applications exigeantes.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Performance&lt;/b&gt; : Optimise l’utilisation de la bande passante et offre une résistance aux défaillances et attaques Sybil. Il comprend un mécanisme de &quot;gossip&quot; pour échanger des métadonnées au lieu des messages entiers, et un mode &quot;mesh&quot; pour gérer efficacement les sous-réseaux d&#39;abonnés.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Cas d’usage&lt;/b&gt; : Utilisé dans les blockchains (Ethereum 2.0, Filecoin, IPFS) et les réseaux P2P décentralisés, il assure une propagation robuste et efficace.&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;&quot;&gt;&lt;h3&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;FloodSub&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Fonctionnement :&lt;/strong&gt; FloodSub est un protocole de routage simple où les messages sont envoyés à tous les pairs connectés dans le réseau. Lorsqu&#39;un nœud publie un message, celui-ci est directement diffusé (&quot;flooded&quot;) à tous les pairs abonnés sans optimisation.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Avantages :&lt;/strong&gt; FloodSub est très simple à implémenter et assure une propagation rapide des messages dans des réseaux de petite taille ou peu denses.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Inconvénients :&lt;/strong&gt; Dans des réseaux larges, FloodSub devient très coûteux en bande passante et en ressources, car les messages sont dupliqués sur plusieurs chemins, générant des redondances importantes.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cas d’utilisation :&lt;/strong&gt; FloodSub peut être utilisé dans de petits réseaux ou pour des tests de prototypage, mais il n&#39;est pas adapté pour des réseaux larges ou des environnements de production.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Utilité&lt;/strong&gt; : Pour une diffusion rapide mais peu optimisée des messages, particulièrement dans de petits réseaux.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Performance&lt;/strong&gt; : Économe en ressources CPU mais très consommateur de bande passante dans des réseaux de grande taille.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cas d&#39;usage&lt;/strong&gt; : Test de prototype et petits réseaux ou pour des applications nécessitant une distribution immédiate des messages sans logique de gestion complexe.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="1940" width="470" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Secure Communication&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Noise&lt;/b&gt; :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Flexible, performant, bien adapté aux environnements décentralisés.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-4" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Secure Communication&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Noise&lt;/b&gt; :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Flexible, performant, bien adapté aux environnements décentralisés.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1225" y="950" width="460" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-5" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Discovery - Protocole de découverte de pairs&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;kademlia - kad DHT :&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;Kademlia est un protocole de table de hachage distribuée (DHT) qui permet aux nœuds d&#39;un réseau de découvrir d&#39;autres pairs en utilisant un espace d&#39;identifiants (hash) organisé en arbre binaire. Chaque nœud stocke des informations sur un sous-ensemble de pairs, et la DHT permet la recherche de pairs de manière efficace en O(log n) en se basant sur la distance de l&#39;identifiant. Kad DHT est adapté aux réseaux P2P distribués où les nœuds peuvent être dispersés de manière large et géographique, comme les réseaux de partage de fichiers, blockchain ou les applications nécessitant une recherche distribuée de pairs.&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Avantages&lt;/b&gt;:&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;Efficace pour la découverte de pairs sur des réseaux de grande envergure.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;Fiable même dans des réseaux très dynamiques où les nœuds se connectent et se déconnectent fréquemment.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;Aucune dépendance centralisée ; il est totalement décentralisé.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Inconvénients&lt;/b&gt;:&lt;/li&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;Complexité supplémentaire dans l&#39;implémentation et la gestion des tables de routage.&lt;/li&gt;&lt;li&gt;Peut introduire une latence dans la découverte de pairs, surtout lorsque le réseau est très large.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;mDNS&lt;/b&gt;&amp;nbsp;:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;idéal pour les environnements de réseau local (LAN) où les nœuds sont physiquement proches, comme un réseau domestique ou un petit réseau d&#39;entreprise.&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénient&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Limité aux réseaux locaux ; il ne fonctionne pas bien (voire pas du tout) à travers Internet.&lt;/li&gt;&lt;li&gt;Ne convient pas aux réseaux plus larges et dispersés géographiquement.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;rendezvous&lt;/b&gt; :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;utilisé pour les réseaux distribués où les nœuds ne sont pas forcément sur le même LAN, par exemple, pour des réseaux globaux où les pairs sont répartis sur Internet.&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénient&lt;/b&gt;:&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Dépendance envers des serveurs de rendezvous.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-5" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Discovery - Protocole de découverte de pairs&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;kademlia - kad DHT :&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;Kademlia est un protocole de table de hachage distribuée (DHT) qui permet aux nœuds d&#39;un réseau de découvrir d&#39;autres pairs en utilisant un espace d&#39;identifiants (hash) organisé en arbre binaire. Chaque nœud stocke des informations sur un sous-ensemble de pairs, et la DHT permet la recherche de pairs de manière efficace en O(log n) en se basant sur la distance de l&#39;identifiant. Kad DHT est adapté aux réseaux P2P distribués où les nœuds peuvent être dispersés de manière large et géographique, comme les réseaux de partage de fichiers, blockchain ou les applications nécessitant une recherche distribuée de pairs.&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;b&gt;Avantages&lt;/b&gt;:&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;Efficace pour la découverte de pairs sur des réseaux de grande envergure.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;Fiable même dans des réseaux très dynamiques où les nœuds se connectent et se déconnectent fréquemment.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;Aucune dépendance centralisée ; il est totalement décentralisé.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Inconvénients&lt;/b&gt;:&lt;/li&gt;&lt;li&gt;&lt;ul&gt;&lt;li&gt;Complexité supplémentaire dans l&#39;implémentation et la gestion des tables de routage.&lt;/li&gt;&lt;li&gt;Peut introduire une latence dans la découverte de pairs, surtout lorsque le réseau est très large.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;mDNS&lt;/b&gt;&amp;nbsp;:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;idéal pour les environnements de réseau local (LAN) où les nœuds sont physiquement proches, comme un réseau domestique ou un petit réseau d&#39;entreprise.&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénient&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;&lt;ul&gt;&lt;li&gt;Limité aux réseaux locaux ; il ne fonctionne pas bien (voire pas du tout) à travers Internet.&lt;/li&gt;&lt;li&gt;Ne convient pas aux réseaux plus larges et dispersés géographiquement.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;rendezvous&lt;/b&gt; :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;utilisé pour les réseaux distribués où les nœuds ne sont pas forcément sur le même LAN, par exemple, pour des réseaux globaux où les pairs sont répartis sur Internet.&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Inconvénient&lt;/b&gt;:&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Dépendance envers des serveurs de rendezvous.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1225" y="340" width="460" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Peer routing&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Kademlia&lt;/b&gt;&amp;nbsp; :&amp;nbsp;&lt;/span&gt;Le &lt;em&gt;peer routing&lt;/em&gt; désigne la capacité de trouver des chemins ou des routes vers d&#39;autres pairs spécifiques sur le réseau. En tant que protocole de &lt;em&gt;peer routing&lt;/em&gt;, Kademlia permet à un nœud de déterminer les pairs les plus proches d&#39;une clé donnée. Ceci est particulièrement utile pour :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Résoudre des adresses de pairs&lt;/strong&gt; : si un nœud A cherche à communiquer avec un nœud B dont il connaît l&#39;ID mais pas l&#39;adresse, le protocole Kademlia permet de trouver un chemin vers B en demandant aux nœuds les plus proches de l&#39;ID de B de fournir l&#39;information.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Acheminer des messages ou des requêtes&lt;/strong&gt; : le réseau peut ainsi être utilisé pour transmettre des requêtes ou des messages de manière décentralisée, en sautant d&#39;un nœud à l&#39;autre jusqu&#39;à atteindre la destination.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Peer routing&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Kademlia&lt;/b&gt;&amp;nbsp; :&amp;nbsp;&lt;/span&gt;Le &lt;em&gt;peer routing&lt;/em&gt; désigne la capacité de trouver des chemins ou des routes vers d&#39;autres pairs spécifiques sur le réseau. En tant que protocole de &lt;em&gt;peer routing&lt;/em&gt;, Kademlia permet à un nœud de déterminer les pairs les plus proches d&#39;une clé donnée. Ceci est particulièrement utile pour :&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Résoudre des adresses de pairs&lt;/strong&gt; : si un nœud A cherche à communiquer avec un nœud B dont il connaît l&#39;ID mais pas l&#39;adresse, le protocole Kademlia permet de trouver un chemin vers B en demandant aux nœuds les plus proches de l&#39;ID de B de fournir l&#39;information.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Acheminer des messages ou des requêtes&lt;/strong&gt; : le réseau peut ainsi être utilisé pour transmettre des requêtes ou des messages de manière décentralisée, en sautant d&#39;un nœud à l&#39;autre jusqu&#39;à atteindre la destination.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="83" width="470" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Stream Multiplezing&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;yamux&lt;/b&gt;&amp;nbsp;:&amp;nbsp;&lt;/span&gt;est généralement préférable si vous avez besoin de fonctionnalités avancées de gestion des flux et de priorisation&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;mplex&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;une bonne alternative si la simplicité et la légèreté sont plus importantes pour votre cas d&#39;utilisation.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;QUIC&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;supporte le multiplexage et les communications sécurisées, QUIC pourrait être une alternative solide, en particulier pour des applications nécessitant une faible latence et une résistance à la congestion.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Fonctionnalités Avancées&lt;/strong&gt; : Si vous avez des exigences spécifiques en matière de gestion de flux (comme la priorisation avancée des flux) qui ne sont pas entièrement satisfaites par QUIC, vous pourriez vouloir intégrer un multiplexeur comme &lt;b&gt;Yamux&lt;/b&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1225" y="-170" width="470" height="220" as="geometry" />
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Stream Multiplexing&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;yamux&lt;/b&gt;&amp;nbsp;:&amp;nbsp;&lt;/span&gt;est généralement préférable si vous avez besoin de fonctionnalités avancées de gestion des flux et de priorisation&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;mplex&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;une bonne alternative si la simplicité et la légèreté sont plus importantes pour votre cas d&#39;utilisation.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;QUIC&lt;/b&gt; :&amp;nbsp;&lt;/span&gt;supporte le multiplexage et les communications sécurisées, QUIC pourrait être une alternative solide, en particulier pour des applications nécessitant une faible latence et une résistance à la congestion.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Fonctionnalités Avancées&lt;/strong&gt; : Si vous avez des exigences spécifiques en matière de gestion de flux (comme la priorisation avancée des flux) qui ne sont pas entièrement satisfaites par QUIC, vous pourriez vouloir intégrer un multiplexeur comme &lt;b&gt;Yamux&lt;/b&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="-170" width="470" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-8" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;NAT Traversal&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Nécessaire ?&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-8" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;NAT Traversal&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Nécessaire ?&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1225" y="-290" width="470" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-9" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-9" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-10" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;VPC&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;Le déploiement d&#39;un nœud (node) sur AWS (Amazon Web Services) nécessite la configuration d&#39;un VPC (Virtual Private Cloud) pour plusieurs raisons essentielles :&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Isolation et Sécurité&lt;/b&gt; : Un VPC permet de créer un environnement réseau isolé dans le cloud. Cela signifie que les ressources déployées (comme des instances EC2, des bases de données, etc.) peuvent être isolées des autres utilisateurs AWS, offrant ainsi un niveau de sécurité accru.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Contrôle du Réseau&lt;/b&gt; : Avec un VPC, vous avez un contrôle total sur votre réseau virtuel, y compris la configuration des sous-réseaux (subnets), des adresses IP, des routeurs et des points de terminaison. Vous pouvez également définir des règles de pare-feu pour contrôler l&#39;accès aux ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Flexibilité de Configuration&lt;/b&gt; : Vous pouvez personnaliser le VPC selon vos besoins. Par exemple, vous pouvez choisir la taille de l&#39;adresse IP (CIDR), créer des sous-réseaux publics et privés, et configurer des connexions VPN pour relier votre infrastructure sur site à AWS.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Intégration avec d&#39;autres Services AWS&lt;/b&gt; : Le VPC est souvent intégré avec d&#39;autres services AWS, comme AWS Lambda, Amazon RDS, et Amazon S3. Cela permet une communication fluide entre les services tout en maintenant la sécurité et la séparation des ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Performances et Latence&lt;/b&gt; : En plaçant vos nœuds dans un VPC, vous pouvez optimiser la performance en choisissant des sous-réseaux proches des autres ressources nécessaires, réduisant ainsi la latence et améliorant la réactivité des applications.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gestion des Accès&lt;/b&gt; : Grâce aux groupes de sécurité et aux ACL (Access Control Lists) que vous pouvez configurer dans un VPC, vous pouvez gérer de manière granulaire qui a accès à quoi, ce qui est essentiel pour les environnements de production sensibles.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;En résumé, le VPC est un élément fondamental pour déployer des nœuds sur AWS, car il offre sécurité, flexibilité et contrôle, tout en permettant une intégration efficace avec d&#39;autres services AWS.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1025" width="540" height="485" as="geometry" />
-        </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-11" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-11" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="810" y="500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKKQ7slUlsZvzBeE3rAa-12" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="WKKQ7slUlsZvzBeE3rAa-12" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="650" width="60" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-1" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Relayer uses a private key to execute Tx on the destination chain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Use one private key per domain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Do not use this private key for something else&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Check the balance of the private key&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Secret libp2p key&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;used to secure libp2p communication between relayers&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key is RSA 2048 with base64 protobuf encoding (minimum)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key may be ed25519 for signature and curve25519 for encryption&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;better perormance&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;more secure&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;to protect against quantic attacks use of NTRU or Lizard&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Persistent storage&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Location where to save MPC private key share&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Refresh topology map&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;After all the information is provided to authority, the team will regenerate &lt;b style=&quot;font-size: 12px;&quot;&gt;t&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;opology map&lt;/b&gt; and initiate key &lt;b style=&quot;font-size: 12px;&quot;&gt;resharing&lt;/b&gt; by calling the Bridge contract method with a new topology map hash.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="-180" width="590" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;VPC&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;Le déploiement d&#39;un nœud (node) sur AWS (Amazon Web Services) nécessite la configuration d&#39;un VPC (Virtual Private Cloud) pour plusieurs raisons essentielles :&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Isolation et Sécurité&lt;/b&gt; : Un VPC permet de créer un environnement réseau isolé dans le cloud. Cela signifie que les ressources déployées (comme des instances EC2, des bases de données, etc.) peuvent être isolées des autres utilisateurs AWS, offrant ainsi un niveau de sécurité accru.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Contrôle du Réseau&lt;/b&gt; : Avec un VPC, vous avez un contrôle total sur votre réseau virtuel, y compris la configuration des sous-réseaux (subnets), des adresses IP, des routeurs et des points de terminaison. Vous pouvez également définir des règles de pare-feu pour contrôler l&#39;accès aux ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Flexibilité de Configuration&lt;/b&gt; : Vous pouvez personnaliser le VPC selon vos besoins. Par exemple, vous pouvez choisir la taille de l&#39;adresse IP (CIDR), créer des sous-réseaux publics et privés, et configurer des connexions VPN pour relier votre infrastructure sur site à AWS.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Intégration avec d&#39;autres Services AWS&lt;/b&gt; : Le VPC est souvent intégré avec d&#39;autres services AWS, comme AWS Lambda, Amazon RDS, et Amazon S3. Cela permet une communication fluide entre les services tout en maintenant la sécurité et la séparation des ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Performances et Latence&lt;/b&gt; : En plaçant vos nœuds dans un VPC, vous pouvez optimiser la performance en choisissant des sous-réseaux proches des autres ressources nécessaires, réduisant ainsi la latence et améliorant la réactivité des applications.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gestion des Accès&lt;/b&gt; : Grâce aux groupes de sécurité et aux ACL (Access Control Lists) que vous pouvez configurer dans un VPC, vous pouvez gérer de manière granulaire qui a accès à quoi, ce qui est essentiel pour les environnements de production sensibles.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;En résumé, le VPC est un élément fondamental pour déployer des nœuds sur AWS, car il offre sécurité, flexibilité et contrôle, tout en permettant une intégration efficace avec d&#39;autres services AWS.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="195" width="540" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-3" value="LIBP2P&lt;div style=&quot;font-size: 12px;&quot;&gt;protocoles&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="-400" width="495" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-11" value="Architecture v2&lt;br&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;wip&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry y="827" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-12" value="Architecture v1&lt;div style=&quot;font-size: 12px;&quot;&gt;wip&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry y="-216" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Relayer node&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gestion des events sur les blockchains.&lt;/li&gt;&lt;li&gt;Génère et distribue les clés partagées MPC/TSS&lt;/li&gt;&lt;li&gt;Enregistre les node validateurs&lt;/li&gt;&lt;li&gt;Exécute les transactions sur les blockchains&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1360" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Validator nodes&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;doivent être enregistrés sur le relayer node (peer ID)&lt;/li&gt;&lt;li&gt;reçoivent une clé partagée pour le MPC/TSS&lt;/li&gt;&lt;li&gt;reçoivent la transaction à valider (message)&lt;/li&gt;&lt;li&gt;valident et signent la transaction (MPC/TSS : CGGMP21)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1440" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="750" y="910" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-18" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
+          <mxGeometry width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-28" source="vDefgXT3XU2eSOZu8Grn-21" target="vDefgXT3XU2eSOZu8Grn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-21" value="Validator&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
+          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-23" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
+          <mxGeometry x="140" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-24" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
+          <mxGeometry x="220" y="76.5" width="50" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="990" width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-4" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+          <mxGeometry width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-16" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+          <mxGeometry x="150" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-29" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-29" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-7" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#FF3399;strokeColor=#E6E6E6;fillColor=#66FFFF;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-8" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+          <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-9" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+          <mxGeometry x="60" y="206" width="60" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-10" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+          <mxGeometry x="120" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="750" y="1200" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-31" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
+          <mxGeometry width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-30" source="vDefgXT3XU2eSOZu8Grn-33" target="vDefgXT3XU2eSOZu8Grn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-33" value="Validator&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
+          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-34" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
+          <mxGeometry x="140" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-35" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
+          <mxGeometry x="220" y="76.5" width="50" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vDefgXT3XU2eSOZu8Grn-33" target="vDefgXT3XU2eSOZu8Grn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;libp2p protocoles&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Transport&lt;/b&gt;: QUIC.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Communication&lt;/b&gt;: noise&lt;/li&gt;&lt;li&gt;&lt;b&gt;Routage&lt;/b&gt;: gossipsub&lt;/li&gt;&lt;li&gt;&lt;b&gt;Discover&lt;/b&gt;: rendezvous&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1520" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--7" target="W-LrozJOCfyRPSNJ4Rq--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--4" value="(1) blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#3333FF;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--3">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--7" target="W-LrozJOCfyRPSNJ4Rq--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--6" value="(1) blocage des fees" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;fontColor=#3333FF;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--5">
+          <mxGeometry x="-0.1725" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--7" value="Utilisateur initie un transfert via UI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--10" value="blockchain source&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1720" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--11" value="blockchain destination&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1800" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--13" value="(3) scan les events blockchain source" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4C0099;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--12">
+          <mxGeometry x="-0.6343" relative="1" as="geometry">
+            <mxPoint x="-113" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--15" value="&lt;span style=&quot;color: rgb(76, 0, 153);&quot;&gt;(3) scan les events blockchain destination&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--14">
+          <mxGeometry x="-0.54" y="-1" relative="1" as="geometry">
+            <mxPoint x="-94" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="1660" />
+              <mxPoint x="358" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--17" value="&lt;div&gt;(6) Exécute la transaction&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--16">
+          <mxGeometry x="-0.0865" relative="1" as="geometry">
+            <mxPoint x="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--35" value="&lt;font color=&quot;#ff8000&quot;&gt;(4) Envoie la transaction à valider&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--32">
+          <mxGeometry x="-0.4378" relative="1" as="geometry">
+            <mxPoint x="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1920" />
+              <mxPoint x="358" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--38" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(6&#39;) Exécute la transaction&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--37">
+          <mxGeometry x="-0.1946" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--18" value="Relayer node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--10" target="W-LrozJOCfyRPSNJ4Rq--10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1735" />
+              <mxPoint x="550" y="1765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--39" value="&lt;font color=&quot;#ff3399&quot;&gt;(2)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--26">
+          <mxGeometry x="-0.526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--27" value="&lt;span style=&quot;color: rgb(255, 0, 128); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;émet un event&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1740" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--11" target="W-LrozJOCfyRPSNJ4Rq--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1813" />
+              <mxPoint x="550" y="1813" />
+              <mxPoint x="550" y="1845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--40" value="&lt;font color=&quot;#ff0080&quot;&gt;(2)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--28">
+          <mxGeometry x="-0.6656" y="2" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--29" value="&lt;span style=&quot;color: rgb(255, 0, 128); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;émet un event&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1815" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--33" value="Validator nodes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--31" value="Validator nodes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--31" target="W-LrozJOCfyRPSNJ4Rq--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--36" value="&lt;font color=&quot;#00cc66&quot;&gt;(5) Envoie la validation et la signature&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--34">
+          <mxGeometry x="0.2103" y="-1" relative="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Au1UpUFk1vavp90-H6la" name="bridge-crypto-steps">
-    <mxGraphModel dx="1018" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3880" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y1DRwermlii_i61IxdnQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-1" target="Y1DRwermlii_i61IxdnQ-2">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-1" target="Y1DRwermlii_i61IxdnQ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="65" y="120" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-2" value="Blockchain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-2" value="Blockchain" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-4" target="Y1DRwermlii_i61IxdnQ-15">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-4" target="Y1DRwermlii_i61IxdnQ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-4" value="&lt;b&gt;1. Initiation de la Transaction (Partie On-Chain sur la Blockchain Source)&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Hachage&lt;/b&gt; de la transaction pour l&#39;identification unique.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Signature&lt;/b&gt; par l’utilisateur pour autoriser l’envoi.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-4" value="&lt;b&gt;1. Initiation de la Transaction (Partie On-Chain sur la Blockchain Source)&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Hachage&lt;/b&gt; de la transaction pour l&#39;identification unique.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Signature&lt;/b&gt; par l’utilisateur pour autoriser l’envoi.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="210" width="420" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-5" target="Y1DRwermlii_i61IxdnQ-2">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Y1DRwermlii_i61IxdnQ-5" target="Y1DRwermlii_i61IxdnQ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-5" target="Y1DRwermlii_i61IxdnQ-9">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y1DRwermlii_i61IxdnQ-5" target="Y1DRwermlii_i61IxdnQ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-7" target="Y1DRwermlii_i61IxdnQ-13">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-7" target="Y1DRwermlii_i61IxdnQ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-7" value="&lt;b&gt;2. Surveillance et validation de Tx par les validateurs&amp;nbsp;(Partie Off-Chain)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;li style=&quot;&quot;&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; des communications entre validateurs.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;strong&gt;Hachage&lt;/strong&gt; pour vérifier l&#39;intégrité des données échangées.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;strong&gt;Signature&lt;/strong&gt; collective par les validateurs pour approuver la transaction.&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-7" value="&lt;b&gt;2. Surveillance et validation de Tx par les validateurs&amp;nbsp;(Partie Off-Chain)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;li style=&quot;&quot;&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; des communications entre validateurs.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;strong&gt;Hachage&lt;/strong&gt; pour vérifier l&#39;intégrité des données échangées.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;strong&gt;Signature&lt;/strong&gt; collective par les validateurs pour approuver la transaction.&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="374.75" width="425" height="78.5" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-9" target="Y1DRwermlii_i61IxdnQ-19">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-9" target="Y1DRwermlii_i61IxdnQ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-9" value="Relayer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-9" value="Relayer" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-11" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-11" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="20" y="470" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-8" value="Off-chain&lt;div&gt;Node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1DRwermlii_i61IxdnQ-11">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-8" value="Off-chain&lt;div&gt;Node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Y1DRwermlii_i61IxdnQ-11" vertex="1">
           <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-5" value="Nodes validateurs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y1DRwermlii_i61IxdnQ-11">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-5" value="Nodes validateurs" style="rounded=1;whiteSpace=wrap;html=1;" parent="Y1DRwermlii_i61IxdnQ-11" vertex="1">
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-12" target="Y1DRwermlii_i61IxdnQ-17">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-12" target="Y1DRwermlii_i61IxdnQ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-12" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;3. Création de la Preuve de Validation (Partie Off-Chain)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; pour transmettre la preuve de manière sécurisée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; de la preuve pour vérification d&#39;intégrité.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; collective de la preuve par les validateurs.&lt;/li&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-12" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;3. Création de la Preuve de Validation (Partie Off-Chain)&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; pour transmettre la preuve de manière sécurisée.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; de la preuve pour vérification d&#39;intégrité.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; collective de la preuve par les validateurs.&lt;/li&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="560" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-13" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Les validateurs &lt;em&gt;off-chain&lt;/em&gt; observent la blockchain source pour détecter la transaction et la valider avant de transférer les informations vers la blockchain de destination.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Les validateurs communiquent entre eux de façon sécurisée en utilisant des canaux chiffrés pour éviter que des tiers n’interceptent les informations sur les transactions observées.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Chaque validateur peut générer un hachage des données de la transaction observée. Ces hachages permettent de vérifier l’intégrité des données échangées entre les validateurs lors du processus de validation.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : Les validateurs utilisent leurs clés pour signer leur validation de la transaction. Si un protocole de calcul multi-parties avec signature de seuil (MPC TSS) est utilisé, les validateurs peuvent coopérer pour produire une signature collective de validation sans divulguer leurs clés individuelles.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-13" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Les validateurs &lt;em&gt;off-chain&lt;/em&gt; observent la blockchain source pour détecter la transaction et la valider avant de transférer les informations vers la blockchain de destination.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Les validateurs communiquent entre eux de façon sécurisée en utilisant des canaux chiffrés pour éviter que des tiers n’interceptent les informations sur les transactions observées.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Chaque validateur peut générer un hachage des données de la transaction observée. Ces hachages permettent de vérifier l’intégrité des données échangées entre les validateurs lors du processus de validation.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : Les validateurs utilisent leurs clés pour signer leur validation de la transaction. Si un protocole de calcul multi-parties avec signature de seuil (MPC TSS) est utilisé, les validateurs peuvent coopérer pour produire une signature collective de validation sans divulguer leurs clés individuelles.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="309" width="730" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-15" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Un utilisateur initie un transfert de tokens sur la blockchain source en envoyant les fonds au contrat de bridge de cette blockchain.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Les données de la transaction (montant, adresse de destination) ne sont pas nécessairement chiffrées dans le cadre du bridge, car elles sont enregistrées sur la blockchain, qui est publique.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Le contrat peut générer un hachage de la transaction (ou une empreinte) qui servira d&#39;identifiant unique pour cette transaction. Ce hachage permet d’identifier de façon unique et immuable la transaction sur la blockchain source.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : L&#39;utilisateur signe la transaction avec sa clé privée pour autoriser l&#39;envoi des fonds. La signature garantit que l&#39;expéditeur est bien l’utilisateur légitime.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-15" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Un utilisateur initie un transfert de tokens sur la blockchain source en envoyant les fonds au contrat de bridge de cette blockchain.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Les données de la transaction (montant, adresse de destination) ne sont pas nécessairement chiffrées dans le cadre du bridge, car elles sont enregistrées sur la blockchain, qui est publique.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Le contrat peut générer un hachage de la transaction (ou une empreinte) qui servira d&#39;identifiant unique pour cette transaction. Ce hachage permet d’identifier de façon unique et immuable la transaction sur la blockchain source.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : L&#39;utilisateur signe la transaction avec sa clé privée pour autoriser l&#39;envoi des fonds. La signature garantit que l&#39;expéditeur est bien l’utilisateur légitime.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="185" width="780" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-17" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Après validation, les validateurs créent une preuve que la transaction a bien été validée, preuve qui sera transmise et utilisée sur la blockchain de destination.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : La preuve est souvent transmise à travers un canal sécurisé pour éviter toute interception.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : La preuve elle-même peut inclure des hachages de la transaction d’origine pour garantir son intégrité. Chaque étape de validation peut être hachée pour garder un historique des actions des validateurs.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : La preuve est signée de manière collective par les validateurs (ou par un mécanisme TSS) pour garantir que la validation est authentique et provient bien du consensus des validateurs.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-17" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Après validation, les validateurs créent une preuve que la transaction a bien été validée, preuve qui sera transmise et utilisée sur la blockchain de destination.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : La preuve est souvent transmise à travers un canal sécurisé pour éviter toute interception.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : La preuve elle-même peut inclure des hachages de la transaction d’origine pour garantir son intégrité. Chaque étape de validation peut être hachée pour garder un historique des actions des validateurs.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : La preuve est signée de manière collective par les validateurs (ou par un mécanisme TSS) pour garantir que la validation est authentique et provient bien du consensus des validateurs.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="540" width="800" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-19" value="Blockchain" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-19" value="Blockchain" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-21" target="Y1DRwermlii_i61IxdnQ-22">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-21" target="Y1DRwermlii_i61IxdnQ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-21" value="&lt;b&gt;4. Transmission de la Preuve vers la Blockchain de Destination (Partie Off-Chain vers On-Chain)&lt;br&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Chiffrement&lt;/b&gt; des données transmises vers la blockchain de destination.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Hachage&lt;/b&gt; de la transaction pour la vérification de la preuve.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Vérification&lt;/b&gt; de la signature des validateurs pour l’authentification.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-21" value="&lt;b&gt;4. Transmission de la Preuve vers la Blockchain de Destination (Partie Off-Chain vers On-Chain)&lt;br&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Chiffrement&lt;/b&gt; des données transmises vers la blockchain de destination.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Hachage&lt;/b&gt; de la transaction pour la vérification de la preuve.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Vérification&lt;/b&gt; de la signature des validateurs pour l’authentification.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="95" y="740" width="430" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-22" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : La preuve est envoyée au contrat de bridge sur la blockchain de destination pour initier le transfert des tokens.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Les informations transmises entre le relais off-chain et la blockchain de destination peuvent être chiffrées pour sécuriser les données en transit.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Le contrat de bridge sur la blockchain de destination peut vérifier la preuve en comparant le hachage de la transaction d’origine avec le hachage contenu dans la preuve.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : La signature des validateurs est vérifiée sur la blockchain de destination pour s’assurer que la preuve est authentique et bien approuvée par le bridge.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-22" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : La preuve est envoyée au contrat de bridge sur la blockchain de destination pour initier le transfert des tokens.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Les informations transmises entre le relais off-chain et la blockchain de destination peuvent être chiffrées pour sécuriser les données en transit.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Le contrat de bridge sur la blockchain de destination peut vérifier la preuve en comparant le hachage de la transaction d’origine avec le hachage contenu dans la preuve.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : La signature des validateurs est vérifiée sur la blockchain de destination pour s’assurer que la preuve est authentique et bien approuvée par le bridge.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="711.5" width="755" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-24" target="Y1DRwermlii_i61IxdnQ-27">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y1DRwermlii_i61IxdnQ-24" target="Y1DRwermlii_i61IxdnQ-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-24" value="&lt;b&gt;5. Émission des Actifs sur la Blockchain de Destination (Partie On-Chain sur la Blockchain de Destination)&lt;br&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Hachage&lt;/b&gt; pour le suivi et la vérification de l’intégrité de la transaction.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-24" value="&lt;b&gt;5. Émission des Actifs sur la Blockchain de Destination (Partie On-Chain sur la Blockchain de Destination)&lt;br&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Hachage&lt;/b&gt; pour le suivi et la vérification de l’intégrité de la transaction.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="960" width="410" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-25" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-25" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="65" y="1050" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y1DRwermlii_i61IxdnQ-19" target="Y1DRwermlii_i61IxdnQ-25">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y1DRwermlii_i61IxdnQ-19" target="Y1DRwermlii_i61IxdnQ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y1DRwermlii_i61IxdnQ-27" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Si la preuve est valide, le contrat de bridge de la blockchain de destination émet les tokens (ou leur équivalent) à l’utilisateur de destination.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Généralement, à cette étape, le chiffrement n’est plus nécessaire, car les informations sont sur la blockchain publique.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Un hachage de la transaction émise est souvent créé pour garder une trace immuable de l’opération.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : Le contrat de bridge lui-même n&#39;a pas besoin de signature ici, mais si l&#39;utilisateur de destination souhaite dépenser ou transférer ces tokens, il devra signer cette nouvelle transaction avec sa propre clé privée.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Y1DRwermlii_i61IxdnQ-27" value="&lt;p&gt;&lt;strong&gt;Objectif&lt;/strong&gt; : Si la preuve est valide, le contrat de bridge de la blockchain de destination émet les tokens (ou leur équivalent) à l’utilisateur de destination.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Chiffrement&lt;/strong&gt; : Généralement, à cette étape, le chiffrement n’est plus nécessaire, car les informations sont sur la blockchain publique.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Hachage&lt;/strong&gt; : Un hachage de la transaction émise est souvent créé pour garder une trace immuable de l’opération.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Signature&lt;/strong&gt; : Le contrat de bridge lui-même n&#39;a pas besoin de signature ici, mais si l&#39;utilisateur de destination souhaite dépenser ou transférer ces tokens, il devra signer cette nouvelle transaction avec sa propre clé privée.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="915" width="700" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-1" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-2" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1030" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-5" target="O9v79pGSa2CK9C8vqLnJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-5" target="O9v79pGSa2CK9C8vqLnJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-5" value="Node 1" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-9" target="O9v79pGSa2CK9C8vqLnJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-9" target="O9v79pGSa2CK9C8vqLnJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-9" target="O9v79pGSa2CK9C8vqLnJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-9" value="Node 2" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-14" target="O9v79pGSa2CK9C8vqLnJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-14" target="O9v79pGSa2CK9C8vqLnJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-14" target="O9v79pGSa2CK9C8vqLnJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-14" target="O9v79pGSa2CK9C8vqLnJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-14" value="Node n" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-15" value="blockchain&lt;div&gt;A&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-16" value="blockchain&lt;div&gt;B&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;gradientColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-17" value="1. &lt;b&gt;Génération et Gestion Distribuée des Clés Privées (MPC)&lt;/b&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#ff3333&quot;&gt;l&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;a clé privée est générée&lt;/font&gt; et &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;partagée entre plusieurs relayers&lt;/strong&gt;&lt;span style=&quot;&quot;&gt; via un protocole MPC&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;par qui et a quel moment ?&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;b&gt;Signatures Distribuées pour Exécuter les Transactions&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Lorsqu’un utilisateur initie un transfert, les smart contracts émettent un event lu par les relayers demandant de signer et d’exécuter des transactions pour bloquer et débloquer les fonds.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;MPC permet aux relayers de signer collectivement la transaction&lt;/span&gt;&lt;span style=&quot;&quot;&gt; requise sur chaque blockchain (A et B) sans jamais révéler la clé privée complète.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;Un nombre minimum de relayers (&lt;b&gt;T-of-N&lt;/b&gt;, seuil cryptographique) est requis pour générer une signature valide. Cela garantit que même si certains relayers sont compromis ou hors ligne, le système reste opérationnel et sécurisé.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;Validation et Exécution des Transactions Cross-Chain&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;Une fois les transactions signées via MPC, &lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;les relayers soumettent&lt;/font&gt;&lt;/b&gt;&amp;nbsp;(&lt;font color=&quot;#ff3333&quot;&gt;un relayer choisie au hasard exécute les transactions&lt;/font&gt;) les transactions à la blockchain d’origine (chaîne A) pour signaler le blocage des fonds, et à la blockchain cible (chaîne B) pour débloquer les fonds ou effectuer d&#39;autres opérations comme le paiement des frais de gas.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;MPC assure que cette signature distribuée est sécurisée et empêche qu’un seul relayer ne prenne le contrôle du processus.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;h3&gt;&lt;strong style=&quot;font-size: 12px;&quot;&gt;4. Tolérance aux Pannes et Sécurité Renforcée&lt;/strong&gt; :&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Grâce à la structure &lt;strong&gt;T-of-N&lt;/strong&gt; (où T est le nombre minimum de relayers nécessaires pour générer une signature), le système est tolérant aux pannes. Même si certains relayers deviennent malveillants ou inopérants, le processus de signature et d&#39;exécution peut toujours avoir lieu tant que T relayers collaborent.&lt;/li&gt;&lt;li&gt;Cela assure une décentralisation robuste, où le transfert inter-chaînes peut être complété de manière sécurisée sans avoir besoin de faire confiance à une seule entité.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;5. &lt;/span&gt;&lt;strong style=&quot;&quot;&gt;Élimination des Risques de Compromission de Clé Privée&lt;/strong&gt;&lt;span style=&quot;&quot;&gt; :&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Puisque la clé privée n&#39;est jamais reconstruite en entier à un seul endroit, même si un relayer est compromis, il est impossible pour l’attaquant de voler la clé ou de contrôler les transactions à lui seul.&lt;/li&gt;&lt;li&gt;Le protocole MPC réduit ainsi considérablement le risque de compromission, par rapport à un modèle où un seul acteur détient une clé privée complète.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;shadow=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="440" width="800" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-22" target="O9v79pGSa2CK9C8vqLnJ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-19" value="blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#3333FF;" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-18">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-22" target="O9v79pGSa2CK9C8vqLnJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-21" value="blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;fontColor=#3333FF;" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-20">
+          <mxGeometry x="-0.1725" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-22" value="Utilisateur initie un transfert via UI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-25" target="O9v79pGSa2CK9C8vqLnJ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2010" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1910" y="1010" />
+              <mxPoint x="1910" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-24" value="émet un event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0080;" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-23">
+          <mxGeometry x="-0.325" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-25" value="blockchain A&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-26" value="blockchain B&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-33" target="O9v79pGSa2CK9C8vqLnJ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-28" value="scan les events blockchain A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4C0099;" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-27">
+          <mxGeometry x="-0.6343" relative="1" as="geometry">
+            <mxPoint x="-66" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-33" target="O9v79pGSa2CK9C8vqLnJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-30" value="&lt;span style=&quot;color: rgb(76, 0, 153);&quot;&gt;scan les events blockchain B&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-29">
+          <mxGeometry x="-0.54" y="-1" relative="1" as="geometry">
+            <mxPoint x="-49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-33" target="O9v79pGSa2CK9C8vqLnJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-32" value="valide et signe la&lt;div&gt;transaction a exécuter via&lt;/div&gt;&lt;div&gt;MPC&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-31">
+          <mxGeometry x="-0.0865" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-33" value="decentralized node(s)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1020" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9v79pGSa2CK9C8vqLnJ-26" target="O9v79pGSa2CK9C8vqLnJ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="1050" as="sourcePoint" />
+            <mxPoint x="1840" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1910" y="1050" />
+              <mxPoint x="1910" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-35" value="émet un event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0080;" vertex="1" connectable="0" parent="O9v79pGSa2CK9C8vqLnJ-34">
+          <mxGeometry x="-0.325" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-36" value="blockchain A&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="1220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9v79pGSa2CK9C8vqLnJ-37" value="blockchain B&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="1260" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
