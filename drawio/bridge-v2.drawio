@@ -303,10 +303,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="USY-s4bwg46s1qRToUk8" name="Relayer network">
-    <mxGraphModel dx="2482" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2367" dy="2489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-18" value="Validator node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1925" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="FFHjdkFk9kFrVm9TLBEm-9" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="660" y="450" width="360" height="354" as="geometry" />
         </mxCell>
@@ -412,227 +415,253 @@
         <mxCell id="WKKQ7slUlsZvzBeE3rAa-12" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="920" y="650" width="60" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-1" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Relayer uses a private key to execute Tx on the destination chain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Use one private key per domain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Do not use this private key for something else&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Check the balance of the private key&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Secret libp2p key&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;used to secure libp2p communication between relayers&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key is RSA 2048 with base64 protobuf encoding (minimum)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key may be ed25519 for signature and curve25519 for encryption&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;better perormance&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;more secure&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;to protect against quantic attacks use of NTRU or Lizard&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Persistent storage&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Location where to save MPC private key share&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Refresh topology map&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;After all the information is provided to authority, the team will regenerate &lt;b style=&quot;font-size: 12px;&quot;&gt;t&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;opology map&lt;/b&gt; and initiate key &lt;b style=&quot;font-size: 12px;&quot;&gt;resharing&lt;/b&gt; by calling the Bridge contract method with a new topology map hash.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-1" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Relayer uses a private key to execute Tx on the destination chain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Use one private key per domain&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Do not use this private key for something else&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Check the balance of the private key&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Secret libp2p key&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;used to secure libp2p communication between relayers&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key is RSA 2048 with base64 protobuf encoding (minimum)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;format of the key may be ed25519 for signature and curve25519 for encryption&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;better perormance&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: center; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;more secure&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;to protect against quantic attacks use of NTRU or Lizard&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Persistent storage&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Location where to save MPC private key share&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Refresh topology map&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;After all the information is provided to authority, the team will regenerate &lt;b style=&quot;font-size: 12px;&quot;&gt;t&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;opology map&lt;/b&gt; and initiate key &lt;b style=&quot;font-size: 12px;&quot;&gt;resharing&lt;/b&gt; by calling the Bridge contract method with a new topology map hash.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-580" y="-180" width="590" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;VPC&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;Le déploiement d&#39;un nœud (node) sur AWS (Amazon Web Services) nécessite la configuration d&#39;un VPC (Virtual Private Cloud) pour plusieurs raisons essentielles :&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Isolation et Sécurité&lt;/b&gt; : Un VPC permet de créer un environnement réseau isolé dans le cloud. Cela signifie que les ressources déployées (comme des instances EC2, des bases de données, etc.) peuvent être isolées des autres utilisateurs AWS, offrant ainsi un niveau de sécurité accru.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Contrôle du Réseau&lt;/b&gt; : Avec un VPC, vous avez un contrôle total sur votre réseau virtuel, y compris la configuration des sous-réseaux (subnets), des adresses IP, des routeurs et des points de terminaison. Vous pouvez également définir des règles de pare-feu pour contrôler l&#39;accès aux ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Flexibilité de Configuration&lt;/b&gt; : Vous pouvez personnaliser le VPC selon vos besoins. Par exemple, vous pouvez choisir la taille de l&#39;adresse IP (CIDR), créer des sous-réseaux publics et privés, et configurer des connexions VPN pour relier votre infrastructure sur site à AWS.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Intégration avec d&#39;autres Services AWS&lt;/b&gt; : Le VPC est souvent intégré avec d&#39;autres services AWS, comme AWS Lambda, Amazon RDS, et Amazon S3. Cela permet une communication fluide entre les services tout en maintenant la sécurité et la séparation des ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Performances et Latence&lt;/b&gt; : En plaçant vos nœuds dans un VPC, vous pouvez optimiser la performance en choisissant des sous-réseaux proches des autres ressources nécessaires, réduisant ainsi la latence et améliorant la réactivité des applications.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gestion des Accès&lt;/b&gt; : Grâce aux groupes de sécurité et aux ACL (Access Control Lists) que vous pouvez configurer dans un VPC, vous pouvez gérer de manière granulaire qui a accès à quoi, ce qui est essentiel pour les environnements de production sensibles.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;En résumé, le VPC est un élément fondamental pour déployer des nœuds sur AWS, car il offre sécurité, flexibilité et contrôle, tout en permettant une intégration efficace avec d&#39;autres services AWS.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-2" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;VPC&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;Le déploiement d&#39;un nœud (node) sur AWS (Amazon Web Services) nécessite la configuration d&#39;un VPC (Virtual Private Cloud) pour plusieurs raisons essentielles :&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Isolation et Sécurité&lt;/b&gt; : Un VPC permet de créer un environnement réseau isolé dans le cloud. Cela signifie que les ressources déployées (comme des instances EC2, des bases de données, etc.) peuvent être isolées des autres utilisateurs AWS, offrant ainsi un niveau de sécurité accru.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Contrôle du Réseau&lt;/b&gt; : Avec un VPC, vous avez un contrôle total sur votre réseau virtuel, y compris la configuration des sous-réseaux (subnets), des adresses IP, des routeurs et des points de terminaison. Vous pouvez également définir des règles de pare-feu pour contrôler l&#39;accès aux ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Flexibilité de Configuration&lt;/b&gt; : Vous pouvez personnaliser le VPC selon vos besoins. Par exemple, vous pouvez choisir la taille de l&#39;adresse IP (CIDR), créer des sous-réseaux publics et privés, et configurer des connexions VPN pour relier votre infrastructure sur site à AWS.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Intégration avec d&#39;autres Services AWS&lt;/b&gt; : Le VPC est souvent intégré avec d&#39;autres services AWS, comme AWS Lambda, Amazon RDS, et Amazon S3. Cela permet une communication fluide entre les services tout en maintenant la sécurité et la séparation des ressources.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Performances et Latence&lt;/b&gt; : En plaçant vos nœuds dans un VPC, vous pouvez optimiser la performance en choisissant des sous-réseaux proches des autres ressources nécessaires, réduisant ainsi la latence et améliorant la réactivité des applications.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Gestion des Accès&lt;/b&gt; : Grâce aux groupes de sécurité et aux ACL (Access Control Lists) que vous pouvez configurer dans un VPC, vous pouvez gérer de manière granulaire qui a accès à quoi, ce qui est essentiel pour les environnements de production sensibles.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;En résumé, le VPC est un élément fondamental pour déployer des nœuds sur AWS, car il offre sécurité, flexibilité et contrôle, tout en permettant une intégration efficace avec d&#39;autres services AWS.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-580" y="195" width="540" height="485" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-3" value="LIBP2P&lt;div style=&quot;font-size: 12px;&quot;&gt;protocoles&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-3" value="LIBP2P&lt;div style=&quot;font-size: 12px;&quot;&gt;protocoles&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="1225" y="-400" width="495" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-11" value="Architecture v2&lt;br&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;wip&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-11" value="Architecture v2&lt;br&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;wip&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry y="827" width="1180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-12" value="Architecture v1&lt;div style=&quot;font-size: 12px;&quot;&gt;wip&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-12" value="Architecture v1&lt;div style=&quot;font-size: 12px;&quot;&gt;wip&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=29;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry y="-216" width="1180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Relayer node&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gestion des events sur les blockchains.&lt;/li&gt;&lt;li&gt;Génère et distribue les clés partagées MPC/TSS&lt;/li&gt;&lt;li&gt;Enregistre les node validateurs&lt;/li&gt;&lt;li&gt;Exécute les transactions sur les blockchains&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1360" width="320" height="120" as="geometry" />
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Relayer node&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Génère et distribue les clés partagées MPC/TSS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Enregistre les noeuds validateurs&lt;/li&gt;&lt;li&gt;Exécute les transactions sur les blockchains&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1360" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Validator nodes&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;doivent être enregistrés sur le relayer node (peer ID)&lt;/li&gt;&lt;li&gt;reçoivent une clé partagée pour le MPC/TSS&lt;/li&gt;&lt;li&gt;reçoivent la transaction à valider (message)&lt;/li&gt;&lt;li&gt;valident et signent la transaction (MPC/TSS : CGGMP21)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1440" width="370" height="120" as="geometry" />
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Validator nodes&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;doit être enregistré sur le relayer node (peer ID)&lt;/li&gt;&lt;li&gt;reçoit une clé partagée pour le MPC/TSS&lt;/li&gt;&lt;li&gt;écoute les évènements émis sur la blockchain&amp;nbsp;&lt;/li&gt;&lt;li&gt;envoie la transaction à valider aux autres nodes&lt;/li&gt;&lt;li&gt;reçoit la transaction à valider des autres nodes (message)&lt;/li&gt;&lt;li&gt;valide et signe la transaction (MPC/TSS : CGGMP21)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="765" y="1640" width="370" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-28" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="750" y="910" width="320" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-18" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
-          <mxGeometry width="320" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-28" source="vDefgXT3XU2eSOZu8Grn-21" target="vDefgXT3XU2eSOZu8Grn-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-21" value="Validator&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
-          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-23" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
-          <mxGeometry x="140" y="180" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-24" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-28">
-          <mxGeometry x="220" y="76.5" width="50" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-29" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-29" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="20" y="990" width="360" height="354" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-4" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-4" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" parent="vDefgXT3XU2eSOZu8Grn-29" vertex="1">
           <mxGeometry width="360" height="354" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-16" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
-          <mxGeometry x="150" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-16" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="vDefgXT3XU2eSOZu8Grn-29" vertex="1">
+          <mxGeometry x="170" y="206" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-29" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-8">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="vDefgXT3XU2eSOZu8Grn-29" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="vDefgXT3XU2eSOZu8Grn-29" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-29" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-7" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#6600CC;strokeColor=#E6E6E6;fillColor=#CCCCFF;shadow=1;fontColor=#FFFFFF;" parent="vDefgXT3XU2eSOZu8Grn-29" vertex="1">
+          <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-7" value="Relayer&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#FF3399;strokeColor=#E6E6E6;fillColor=#66FFFF;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
-          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-8" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
-          <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-9" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-9" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" parent="vDefgXT3XU2eSOZu8Grn-29" vertex="1">
           <mxGeometry x="60" y="206" width="60" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-10" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-29">
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-10" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vDefgXT3XU2eSOZu8Grn-29" vertex="1">
           <mxGeometry x="120" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="750" y="1200" width="320" height="220" as="geometry" />
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;libp2p protocoles&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Transport&lt;/b&gt;: QUIC.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Communication&lt;/b&gt;: noise&lt;/li&gt;&lt;li&gt;&lt;b&gt;Routage&lt;/b&gt;: gossipsub&lt;/li&gt;&lt;li&gt;&lt;b&gt;Discover&lt;/b&gt;: rendezvous&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1480" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-31" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
-          <mxGeometry width="320" height="220" as="geometry" />
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--27" value="&lt;span style=&quot;color: rgb(255, 0, 128); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;émet un event&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1895" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vDefgXT3XU2eSOZu8Grn-30" source="vDefgXT3XU2eSOZu8Grn-33" target="vDefgXT3XU2eSOZu8Grn-35">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--29" value="&lt;span style=&quot;color: rgb(255, 0, 128); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;émet un event&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1972" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-33" value="Validator&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6FFCC;strokeColor=#E6E6E6;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
-          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-34" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
-          <mxGeometry x="140" y="180" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-35" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="vDefgXT3XU2eSOZu8Grn-30">
-          <mxGeometry x="220" y="76.5" width="50" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vDefgXT3XU2eSOZu8Grn-7" target="vDefgXT3XU2eSOZu8Grn-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vDefgXT3XU2eSOZu8Grn-33" target="vDefgXT3XU2eSOZu8Grn-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vDefgXT3XU2eSOZu8Grn-38" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;libp2p protocoles&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Transport&lt;/b&gt;: QUIC.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Communication&lt;/b&gt;: noise&lt;/li&gt;&lt;li&gt;&lt;b&gt;Routage&lt;/b&gt;: gossipsub&lt;/li&gt;&lt;li&gt;&lt;b&gt;Discover&lt;/b&gt;: rendezvous&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1520" width="320" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--7" target="W-LrozJOCfyRPSNJ4Rq--10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--4" value="(1) blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#3333FF;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--3">
-          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
-            <mxPoint x="9" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--7" target="W-LrozJOCfyRPSNJ4Rq--11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--6" value="(1) blocage des fees" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;fontColor=#3333FF;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--5">
-          <mxGeometry x="-0.1725" relative="1" as="geometry">
-            <mxPoint x="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--7" value="Utilisateur initie un transfert via UI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1760" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--10" value="blockchain source&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1720" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--11" value="blockchain destination&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1800" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--13" value="(3) scan les events blockchain source" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4C0099;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--12">
-          <mxGeometry x="-0.6343" relative="1" as="geometry">
-            <mxPoint x="-113" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--15" value="&lt;span style=&quot;color: rgb(76, 0, 153);&quot;&gt;(3) scan les events blockchain destination&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--14">
-          <mxGeometry x="-0.54" y="-1" relative="1" as="geometry">
-            <mxPoint x="-94" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--10">
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--31" target="W-LrozJOCfyRPSNJ4Rq--18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="1630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="1660" />
-              <mxPoint x="358" y="1660" />
+              <mxPoint x="910" y="1860" />
+              <mxPoint x="690" y="1860" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--17" value="&lt;div&gt;(6) Exécute la transaction&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--16">
-          <mxGeometry x="-0.0865" relative="1" as="geometry">
-            <mxPoint x="34" as="offset" />
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-20" value="Distribution des clés&lt;div&gt;partagées MPC/TSS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ICaWzB2LusAWYeYSK3EQ-19">
+          <mxGeometry x="0.1162" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--31">
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="750" y="940" width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-2" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-1">
+          <mxGeometry width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICaWzB2LusAWYeYSK3EQ-1" source="ICaWzB2LusAWYeYSK3EQ-6" target="ICaWzB2LusAWYeYSK3EQ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--35" value="&lt;font color=&quot;#ff8000&quot;&gt;(4) Envoie la transaction à valider&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--32">
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICaWzB2LusAWYeYSK3EQ-1" source="ICaWzB2LusAWYeYSK3EQ-6" target="ICaWzB2LusAWYeYSK3EQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-6" value="Validator&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#66FFB3;strokeColor=#E6E6E6;fillColor=#66FFFF;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-1">
+          <mxGeometry x="150" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-7" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-8" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-1">
+          <mxGeometry x="260" y="193" width="60" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-9" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-1">
+          <mxGeometry x="120" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="vDefgXT3XU2eSOZu8Grn-7" target="ICaWzB2LusAWYeYSK3EQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1030.909090909091" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="750" y="1280" width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-11" value="AWS cloud provider" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-10">
+          <mxGeometry width="360" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICaWzB2LusAWYeYSK3EQ-10" source="ICaWzB2LusAWYeYSK3EQ-14" target="ICaWzB2LusAWYeYSK3EQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICaWzB2LusAWYeYSK3EQ-10" source="ICaWzB2LusAWYeYSK3EQ-14" target="ICaWzB2LusAWYeYSK3EQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-14" value="Validator&amp;nbsp;&lt;div&gt;node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#66FFB3;strokeColor=#E6E6E6;fillColor=#66FFFF;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-10">
+          <mxGeometry x="150" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-15" value="RPC provider" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-10">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-16" value="persistent&lt;div&gt;storage&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-10">
+          <mxGeometry x="260" y="193" width="60" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ICaWzB2LusAWYeYSK3EQ-17" value="VPC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ICaWzB2LusAWYeYSK3EQ-10">
+          <mxGeometry x="120" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vDefgXT3XU2eSOZu8Grn-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="vDefgXT3XU2eSOZu8Grn-7" target="ICaWzB2LusAWYeYSK3EQ-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1294.5454545454545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.992;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="ICaWzB2LusAWYeYSK3EQ-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1930" />
+              <mxPoint x="840" y="1949" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--35" value="&lt;font color=&quot;#ff8000&quot;&gt;(4) Envoie la transaction&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff8000&quot;&gt;à valider et signer&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="W-LrozJOCfyRPSNJ4Rq--32" vertex="1" connectable="0">
           <mxGeometry x="-0.4378" relative="1" as="geometry">
-            <mxPoint x="62" as="offset" />
+            <mxPoint y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--11">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--31" target="W-LrozJOCfyRPSNJ4Rq--11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="1920" />
-              <mxPoint x="358" y="1920" />
+              <mxPoint x="940" y="2075" />
+              <mxPoint x="358" y="2075" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--38" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(6&#39;) Exécute la transaction&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--37">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--38" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(6&#39;) Exécute la transaction&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="W-LrozJOCfyRPSNJ4Rq--37" vertex="1" connectable="0">
           <mxGeometry x="-0.1946" y="1" relative="1" as="geometry">
             <mxPoint x="5" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--18" value="Relayer node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1760" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--10" target="W-LrozJOCfyRPSNJ4Rq--10">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--31" target="W-LrozJOCfyRPSNJ4Rq--10" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1785" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="1735" />
-              <mxPoint x="550" y="1765" />
+              <mxPoint x="940" y="1815" />
+              <mxPoint x="358" y="1815" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--39" value="&lt;font color=&quot;#ff3399&quot;&gt;(2)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--26">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--17" value="&lt;div&gt;(6) Exécute la transaction&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="W-LrozJOCfyRPSNJ4Rq--16" vertex="1" connectable="0">
+          <mxGeometry x="-0.0865" relative="1" as="geometry">
+            <mxPoint x="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--13" value="(3) écoutent les events blockchain source" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#4C0099;" parent="W-LrozJOCfyRPSNJ4Rq--12" vertex="1" connectable="0">
+          <mxGeometry x="-0.6343" relative="1" as="geometry">
+            <mxPoint x="-113" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--18" target="W-LrozJOCfyRPSNJ4Rq--11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--15" value="&lt;span style=&quot;color: rgb(76, 0, 153);&quot;&gt;(3) écoutent les events blockchain destination&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="W-LrozJOCfyRPSNJ4Rq--14" vertex="1" connectable="0">
+          <mxGeometry x="-0.54" y="-1" relative="1" as="geometry">
+            <mxPoint x="-111" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--7" target="W-LrozJOCfyRPSNJ4Rq--10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--4" value="(1) blocage des fonds" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#3333FF;" parent="W-LrozJOCfyRPSNJ4Rq--3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2118" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--7" target="W-LrozJOCfyRPSNJ4Rq--11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--6" value="(1) blocage des fees" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;fontColor=#3333FF;" parent="W-LrozJOCfyRPSNJ4Rq--5" vertex="1" connectable="0">
+          <mxGeometry x="-0.1725" relative="1" as="geometry">
+            <mxPoint x="6" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--10" target="W-LrozJOCfyRPSNJ4Rq--10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1890" />
+              <mxPoint x="550" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--39" value="&lt;font color=&quot;#ff3399&quot;&gt;(2)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="W-LrozJOCfyRPSNJ4Rq--26" vertex="1" connectable="0">
           <mxGeometry x="-0.526" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--27" value="&lt;span style=&quot;color: rgb(255, 0, 128); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;émet un event&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1740" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--11" target="W-LrozJOCfyRPSNJ4Rq--11">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=oval;startFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--11" target="W-LrozJOCfyRPSNJ4Rq--11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="1813" />
-              <mxPoint x="550" y="1813" />
-              <mxPoint x="550" y="1845" />
+              <mxPoint x="550" y="1970" />
+              <mxPoint x="550" y="2000" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--40" value="&lt;font color=&quot;#ff0080&quot;&gt;(2)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--28">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--40" value="&lt;font color=&quot;#ff0080&quot;&gt;(2)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="W-LrozJOCfyRPSNJ4Rq--28" vertex="1" connectable="0">
           <mxGeometry x="-0.6656" y="2" relative="1" as="geometry">
             <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--29" value="&lt;span style=&quot;color: rgb(255, 0, 128); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;émet un event&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1815" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--33" value="Validator nodes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="1770" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--31" value="Validator nodes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1760" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-LrozJOCfyRPSNJ4Rq--31" target="W-LrozJOCfyRPSNJ4Rq--18">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=oval;endFill=1;" parent="1" source="W-LrozJOCfyRPSNJ4Rq--31" target="W-LrozJOCfyRPSNJ4Rq--18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W-LrozJOCfyRPSNJ4Rq--36" value="&lt;font color=&quot;#00cc66&quot;&gt;(5) Envoie la validation et la signature&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W-LrozJOCfyRPSNJ4Rq--34">
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--36" value="&lt;font color=&quot;#00cc66&quot;&gt;(5) Envoie la validation&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#00cc66&quot;&gt;et la signature&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="W-LrozJOCfyRPSNJ4Rq--34" vertex="1" connectable="0">
           <mxGeometry x="0.2103" y="-1" relative="1" as="geometry">
-            <mxPoint x="29" as="offset" />
+            <mxPoint x="17" y="16" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--31" value="Relayer node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--18" value="Validator nodes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="1915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--7" value="Utilisateur initie un transfert via UI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--10" value="blockchain source&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1875" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-LrozJOCfyRPSNJ4Rq--11" value="blockchain destination&lt;div&gt;via rpc node&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="1955" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
