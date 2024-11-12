@@ -17,31 +17,38 @@
 
 - Le réseau est décentralisé
 - Le réseau est limité à `n` noeuds ou `n` est ègal à `(à définir)`
-- Les noeuds discutent tous ensemble via le protocol `gossipsub`
+- Les noeuds communiquent tous ensemble via le protocol `gossipsub`
+- Les noeuds écoutent les évènements émis sur la blockchain
 
 ### Enregistrement d'un noeud
 
-- Les noeuds doivent être enregistrés auprès d'une authorité
+- L'authorité est un contrat sur la blockchain
+- Les noeuds sont enregistrés auprès d'une authorité
   - Avec un ID unique (peer ID)
   - Avec une adresse IP
-- L'authorité est un contrat sur la blockchain
 - `chaincraft` à la responsabilité de maintenir cette liste de noeuds validateurs (ajout/suppression)
+
+> Le noeud validateur doit communiquer avec un noeud RPC
 
 ## 3. Fonction à implémenter
 
 ### Utilitaire
 
-1. Générer un peer ID en fonction d'une seed
+- [x] Générer un peer ID en fonction d'une seed
 
 ### Noeud relayer
 
-1. Démarrer un noeud de type [rendezvous](https://en.wikipedia.org/wiki/Rendezvous_protocol)
-2. Enregistrer des noeuds validateurs par peer ID
-3. Génération de clés partagées pour le MPC/TSS
-4. Exécuter des transactions sur la blockchain
-5. Scanner les évènements depuis la blockchain
+- [ ] Démarrer un noeud de type [rendezvous](https://en.wikipedia.org/wiki/Rendezvous_protocol)
+- [ ] Ajouter un noeud validateur par peer ID
+- [ ] Supprimer un noeud validateur par peer ID
+- [ ] Générer des clés partagées pour le MPC/TSS
+- [ ] Distribuer des clés partagées pour le MPC/TSS vers ;es nodes validateurs
+- [ ] Exécuter des transactions sur la blockchain
 
 ### Noeud validateur
 
-1. Rejoindre le noeud relayer
-2. Valider et signer les transactions via MPC/TSS
+- [ ] Connecter le noeud validateur au noeud relayer
+- [ ] Écouter les évènements depuis la blockchain
+- [ ] Valider les transactions via MPC/TSS
+- [ ] Signer les transactions via MPC/TSS
+- [ ] Envoyer les transactions via MPC/TSS aux autres nodes validateurs
