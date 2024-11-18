@@ -38,7 +38,7 @@
 
 ### Noeud relayer
 
-- [ ] Démarrer un noeud de type [rendezvous](https://en.wikipedia.org/wiki/Rendezvous_protocol)
+- [x] Démarrer un noeud de type [rendezvous](https://en.wikipedia.org/wiki/Rendezvous_protocol)
 - [ ] Ajouter un noeud validateur par peer ID
 - [ ] Supprimer un noeud validateur par peer ID
 - [ ] Générer des clés partagées pour le MPC/TSS
