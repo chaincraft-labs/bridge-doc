@@ -16,7 +16,7 @@
 ### Réseau de noeuds validateurs
 
 - Le réseau est décentralisé
-- Le réseau est limité à `n` noeuds ou `n` est ègal à `(à définir)`
+- Le réseau est limité à `n` noeuds ou `n` est ègal à `20`
 - Les noeuds communiquent tous ensemble via le protocol `gossipsub`
 - Les noeuds écoutent les évènements émis sur la blockchain
 
@@ -38,15 +38,23 @@
 
 ### Noeud relayer
 
-- [x] Démarrer un noeud de type [rendezvous](https://en.wikipedia.org/wiki/Rendezvous_protocol)
-- [ ] Ajouter un noeud validateur par peer ID
-- [ ] Supprimer un noeud validateur par peer ID
+- [ ] Démarrer un noeud relayer
+- [ ] Cluster de noeuds relayer
+- [ ] Ajouter un noeud validateur par peer ID sur la blockchain
+- [ ] Supprimer un noeud validateur par peer ID de la blockchain
 - [ ] Générer des clés partagées pour le MPC/TSS
-- [ ] Distribuer des clés partagées pour le MPC/TSS vers ;es nodes validateurs
-- [ ] Exécuter des transactions sur la blockchain
+- [ ] Distribuer des clés partagées pour le MPC/TSS vers les nodes validateurs
+- [ ] Exécuter des transactions de bridge sur la blockchain
 
 ### Noeud validateur
 
+- [x] Démarrer un noeud utilisant les protocoles [kademlia, QUIC, Gossipsub]
+  - [x] Initialiser le réseau p2p avec un noeud bootstrap
+  - [x] Démarrer des noeuds en se connectant au bootstrap
+  - [x] Tous les noeuds du réseau se découvrent [kademlia]
+  - [x] Tous les noeuds du réseau communiquent [gossipsub]
+  - [x] Le réseau reste stable après déconnexion du bootstrap
+  - [x] Réintégrer le bootstrap dans le réseau p2p après déconnexion
 - [ ] Connecter le noeud validateur au noeud relayer
 - [ ] Écouter les évènements depuis la blockchain
 - [ ] Valider les transactions via MPC/TSS
