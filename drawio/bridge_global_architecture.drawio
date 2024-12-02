@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0" pages="5">
   <diagram id="IXVDJG_VeLUXgpo1rgtr" name="archi">
     <mxGraphModel dx="1198" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -376,8 +376,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="_dfDwN6W6qn118nUfxkM" name="seq">
-    <mxGraphModel dx="1131" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="_dfDwN6W6qn118nUfxkM" name="bridge transfer seq">
+    <mxGraphModel dx="2802" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -754,6 +754,214 @@
               <mxPoint x="1363" y="260" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PEBX2lXrh0xG0t14klY2" name="Add/remove node seq">
+    <mxGraphModel dx="2522" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-1" value="Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="1569" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-2" value="Smart Contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="20" width="150" height="1569" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-3" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="20" width="150" height="1569" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-4" value="Validator Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="863" y="20" width="150" height="1569" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-5" value="Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1063" y="20" width="150" height="1569" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-6" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=#00FF80;" vertex="1" parent="1">
+          <mxGeometry x="645" y="355" width="379" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-7" value="[Parallel key distribution]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="2ytQkT5OmcG8-XpeXfBQ-6">
+          <mxGeometry x="30" width="349" height="13.025210084033613" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-8" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=#00FF80;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1025" width="379" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-9" value="[Parallel key redistribution]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="2ytQkT5OmcG8-XpeXfBQ-8">
+          <mxGeometry x="30" width="349" height="14.335664335664335" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-10" value="Register new validator &#xa;node (peer_id, ip, hostname)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2ytQkT5OmcG8-XpeXfBQ-1" target="2ytQkT5OmcG8-XpeXfBQ-2">
+          <mxGeometry x="0.0406" y="-18" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="172" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-11" value="Emit &quot;NewValidatorNode&quot; event" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777" y="200" />
+            </Array>
+            <mxPoint x="397.5" y="200" as="sourcePoint" />
+            <mxPoint x="1137.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-12" value="Relayer listens to event" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="909" y="238" />
+            </Array>
+            <mxPoint x="1137.5" y="238" as="sourcePoint" />
+            <mxPoint x="655.5" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-13" value="Send partial private key" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="806" y="398" />
+            </Array>
+            <mxPoint x="655.5" y="398" as="sourcePoint" />
+            <mxPoint x="937.5" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-14" value="Secure storage&#xa;of private key" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0075" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="989" y="425" />
+              <mxPoint x="989" y="455" />
+            </Array>
+            <mxPoint x="937.5" y="425" as="sourcePoint" />
+            <mxPoint x="937.5" y="455" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-15" value="Acknowledgment" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="809" y="483" />
+            </Array>
+            <mxPoint x="937.5" y="483" as="sourcePoint" />
+            <mxPoint x="655.5" y="483" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-16" value="Confirm key distribution" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="638" />
+            </Array>
+            <mxPoint x="655.5" y="638" as="sourcePoint" />
+            <mxPoint x="397.5" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-17" value="Update network state" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777" y="666" />
+            </Array>
+            <mxPoint x="397.5" y="666" as="sourcePoint" />
+            <mxPoint x="1137.5" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-18" value="Remove validator node" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2ytQkT5OmcG8-XpeXfBQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="793" />
+            </Array>
+            <mxPoint x="-45.5" y="793" as="sourcePoint" />
+            <mxPoint x="397.5" y="793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-19" value="Emit &quot;RemoveValidatorNode&quot; event" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777" y="841" />
+            </Array>
+            <mxPoint x="397.5" y="841" as="sourcePoint" />
+            <mxPoint x="1137.5" y="841" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-20" value="Relayer listens to event" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="909" y="879" />
+            </Array>
+            <mxPoint x="1137.5" y="879" as="sourcePoint" />
+            <mxPoint x="655.5" y="879" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-21" value="Invalidate old keys" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="806" y="1068" />
+            </Array>
+            <mxPoint x="655.5" y="1068" as="sourcePoint" />
+            <mxPoint x="937.5" y="1068" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-22" value="Send new partial private keys" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="806" y="1106" />
+            </Array>
+            <mxPoint x="655.5" y="1106" as="sourcePoint" />
+            <mxPoint x="937.5" y="1106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-23" value="Secure storage&#xa;of new private key" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="989" y="1133" />
+              <mxPoint x="989" y="1163" />
+            </Array>
+            <mxPoint x="937.5" y="1133" as="sourcePoint" />
+            <mxPoint x="937.5" y="1163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-24" value="Acknowledgment" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="809" y="1191" />
+            </Array>
+            <mxPoint x="937.5" y="1191" as="sourcePoint" />
+            <mxPoint x="655.5" y="1191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-25" value="Confirm key redistribution" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="1356" />
+            </Array>
+            <mxPoint x="655.5" y="1356" as="sourcePoint" />
+            <mxPoint x="397.5" y="1356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-26" value="Update network state" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="777" y="1394" />
+            </Array>
+            <mxPoint x="397.5" y="1394" as="sourcePoint" />
+            <mxPoint x="1137.5" y="1394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-27" value="Addition of a Validator Node" style="fillColor=#CCFFE6;strokeColor=#9E916F;labelBackgroundColor=none;gradientColor=#66FFB3;shadow=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="95" width="1093" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-28" value="Generate new&#xa;MPC TSS keys" style="fillColor=#CCFFFF;strokeColor=#9E916F;shadow=1;rounded=1;gradientColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="581" y="258" width="150" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-29" value="Verify all keys&#xa;received" style="fillColor=#CCFFFF;strokeColor=#9E916F;shadow=1;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;gradientColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="581" y="533" width="150" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-30" value="Removal of a Validator Node" style="fillColor=#FFCCCC;strokeColor=#9E916F;gradientColor=#FF6666;rounded=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="706" width="1093" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-31" value="Generate new&#xa;MPC TSS keys for&#xa;remaining nodes" style="fillColor=#CCFFFF;strokeColor=#9E916F;shadow=1;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;gradientColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="581" y="909" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="2ytQkT5OmcG8-XpeXfBQ-32" value="Verify all new keys&#xa;received" style="fillColor=#CCFFFF;strokeColor=#9E916F;shadow=1;rounded=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;gradientColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1251" width="153" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
