@@ -1,0 +1,381 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="2">
+  <diagram name="Page-1" id="UpIJ6t59_B_ryDI0z33F">
+    <mxGraphModel dx="1733" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U84bdcakY59jslJS3j8U-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="2008" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-2" value="Bridge Origin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="150" height="2008" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-3" value="Relayer Origin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="556" y="20" width="150" height="2008" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-4" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-3">
+          <mxGeometry x="70" y="238" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-5" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-3">
+          <mxGeometry x="70" y="993" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-3">
+          <mxGeometry x="70" y="1235" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-7" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-3">
+          <mxGeometry x="70" y="1729" width="10" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-8" value="Oracle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="941" y="20" width="150" height="2008" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-9" value="Relayer Dest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1227" y="20" width="150" height="2008" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-10" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-9">
+          <mxGeometry x="70" y="528" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-11" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-9">
+          <mxGeometry x="70" y="770" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-12" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="U84bdcakY59jslJS3j8U-9">
+          <mxGeometry x="70" y="1458" width="10" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-13" value="Bridge Dest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1496" y="20" width="150" height="2008" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-14" value="createBridgeOperation()&#xa;(from,to,chainIdFrom,chainIdTo,&#xa;tokenName,amount,nonce,sig)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-1" target="U84bdcakY59jslJS3j8U-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-15" value="createOperation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-2" target="U84bdcakY59jslJS3j8U-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="522" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-16" value="status = ORG_OP_CREATED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-4" target="U84bdcakY59jslJS3j8U-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="306" />
+              <mxPoint x="686" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-17" value="Event: OperationCreated" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-4" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-18" value="depositFees()&#xa;(operationHash,chainIdFrom,chainIdTo)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-1" target="U84bdcakY59jslJS3j8U-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="842" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-19" value="lockDestinationFees()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-13" target="U84bdcakY59jslJS3j8U-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1448" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-20" value="status = DST_FEES_DEPOSITED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-10" target="U84bdcakY59jslJS3j8U-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1357" y="596" />
+              <mxPoint x="1357" y="626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-21" value="Event: FeesDeposited" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-10" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1169" y="674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-22" value="sendFeesLockConfirmation()&#xa;(after block confirmations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-8" target="U84bdcakY59jslJS3j8U-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1168" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-23" value="status = DST_FEES_CONFIRMED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-11" target="U84bdcakY59jslJS3j8U-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1357" y="838" />
+              <mxPoint x="1357" y="868" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-24" value="Event: FeesDepositConfirmed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-11" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1169" y="916" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-25" value="receiveFeesLockConfirmation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-8" target="U84bdcakY59jslJS3j8U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="1013" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-26" value="status = ORG_FEES_LOCKED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-5" target="U84bdcakY59jslJS3j8U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="1061" />
+              <mxPoint x="686" y="1091" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-27" value="Event: FeesLockedConfirmed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-5" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="1139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-28" value="confirmFeesLockedAndDepositConfirmed()&#xa;(after block confirmations)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-8" target="U84bdcakY59jslJS3j8U-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="1255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-29" value="status = ORG_OP_READY" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-6" target="U84bdcakY59jslJS3j8U-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="1303" />
+              <mxPoint x="686" y="1333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-30" value="Event: FeesLockedAndDepositConfirmed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-6" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="1381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-31" value="completeOperation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-8" target="U84bdcakY59jslJS3j8U-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1168" y="1478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-32" value="completeBridgeOperation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-12" target="U84bdcakY59jslJS3j8U-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1447" y="1526" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-33" value="status = DST_OP_FINALIZED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-12" target="U84bdcakY59jslJS3j8U-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1357" y="1574" />
+              <mxPoint x="1357" y="1604" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-34" value="Event: OperationFinalized" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-12" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1169" y="1652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-35" value="receivedFinalizedOperation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-8" target="U84bdcakY59jslJS3j8U-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-36" value="finalizeBridgeDeposit()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-7" target="U84bdcakY59jslJS3j8U-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="523" y="1797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-37" value="status = ORG_OP_CLOSED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-7" target="U84bdcakY59jslJS3j8U-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="686" y="1845" />
+              <mxPoint x="686" y="1875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-38" value="Event: OperationClosed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="U84bdcakY59jslJS3j8U-7" target="U84bdcakY59jslJS3j8U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="834" y="1923" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-39" value="1. Phase initiale (Origin Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="95" width="1526" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-40" value="2. Phase de dépôt des frais (Destination Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="404" width="1526" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-41" value="3. Confirmation des frais (Destination Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="694" width="1526" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-42" value="4. Verrouillage des frais (Origin Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="936" width="1526" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-43" value="5. Confirmation finale (Origin Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1159" width="1526" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-44" value="6. Exécution sur destination (Destination Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1401" width="1526" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="U84bdcakY59jslJS3j8U-45" value="7. Finalisation (Origin Chain)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1672" width="1526" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g_8oHaGP9jTA-sQnmcoB" name="Page-2">
+    <mxGraphModel dx="1733" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-1" value="Bridge 1337" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="993" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-2" value="Relayer 1337" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="993" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="3Jbtu8QETEf0f3ECZVZz-2">
+          <mxGeometry x="70" y="181" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-4" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="3Jbtu8QETEf0f3ECZVZz-2">
+          <mxGeometry x="70" y="703" width="10" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-5" value="Oracle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="756" y="20" width="150" height="993" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-6" value="Relayer 5150" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1047" y="20" width="150" height="993" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-7" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="3Jbtu8QETEf0f3ECZVZz-6">
+          <mxGeometry x="70" y="355" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-8" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="3Jbtu8QETEf0f3ECZVZz-6">
+          <mxGeometry x="70" y="529" width="10" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-9" value="Bridge 5150" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="20" width="150" height="993" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-10" value="createOperation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-1" target="3Jbtu8QETEf0f3ECZVZz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="201" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-11" value="s_originOperations[hash].status = ORG_OP_CREATED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-3" target="3Jbtu8QETEf0f3ECZVZz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="249" />
+              <mxPoint x="350" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-12" value="Event: OperationCreated" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-3" target="3Jbtu8QETEf0f3ECZVZz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-13" value="lockDestinationFees()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-9" target="3Jbtu8QETEf0f3ECZVZz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-14" value="s_destinationOperations[hash].status = DST_FEES_DEPOSITED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-7" target="3Jbtu8QETEf0f3ECZVZz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1177" y="423" />
+              <mxPoint x="1177" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-15" value="Event: FeesDeposited" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-7" target="3Jbtu8QETEf0f3ECZVZz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="986" y="501" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-16" value="sendFeesLockConfirmation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-5" target="3Jbtu8QETEf0f3ECZVZz-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-17" value="s_destinationOperations[hash].status = DST_FEES_CONFIRMED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-8" target="3Jbtu8QETEf0f3ECZVZz-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1177" y="597" />
+              <mxPoint x="1177" y="627" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-18" value="Event: FeesDepositConfirmed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-8" target="3Jbtu8QETEf0f3ECZVZz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="986" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-19" value="receiveFeesLockConfirmation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-5" target="3Jbtu8QETEf0f3ECZVZz-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-20" value="s_originOperations[hash].status = ORG_FEES_LOCKED" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-4" target="3Jbtu8QETEf0f3ECZVZz-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="820" />
+              <mxPoint x="350" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-21" value="Event: FeesLockedConfirmed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3Jbtu8QETEf0f3ECZVZz-4" target="3Jbtu8QETEf0f3ECZVZz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="898" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-22" value="Les états sont gérés indépendamment sur chaque chaîne" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="70" y="124" width="1371" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3Jbtu8QETEf0f3ECZVZz-23" value="Vérifie s_originOperations[hash].status == ORG_OP_CREATED" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="320" y="743" width="471" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
