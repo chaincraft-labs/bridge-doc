@@ -1,62 +1,62 @@
-# Description du réseau de noeuds au sein du bridge décentralisé
+# Description of the Node Network within the Decentralized Bridge
 
-## 1. Les noeuds relayers
+## 1. Relayer Nodes
 
-### Le réseau de noeuds relayers (centralisé)
+### Relayer Node Network (Centralized)
 
-- Le réseau est centralisé
-- Les noeuds relayers sont sous la responsabilité de `chaincraft`
-- Les noeuds relayers assurent l'interaction avec les contrats sur les blockchains
-- Les noeuds relayers communiquent avec les noeuds validateurs
-- Les noeuds relayers doivent résister aux pannes et offrir un service permanent
-- Les noeuds relayers enregistrent les noeuds validateurs
+- The network is centralized
+- Relayer nodes are under `chaincraft`'s responsibility
+- Relayer nodes ensure interaction with contracts on blockchains
+- Relayer nodes communicate with validator nodes
+- Relayer nodes must be fault-tolerant and provide permanent service
+- Relayer nodes register validator nodes
 
-## 2. Les noeuds validateurs
+## 2. Validator Nodes
 
-### Réseau de noeuds validateurs
+### Validator Node Network
 
-- Le réseau est décentralisé
-- Le réseau est limité à `n` noeuds ou `n` est ègal à `20`
-- Les noeuds communiquent tous ensemble via le protocol `gossipsub`
-- Les noeuds écoutent les évènements émis sur la blockchain
+- The network is decentralized
+- The network is limited to `n` nodes where `n` equals `20`
+- All nodes communicate together via the `gossipsub` protocol
+- Nodes listen to events emitted on the blockchain
 
-### Enregistrement d'un noeud
+### Node Registration
 
-- L'authorité est un contrat sur la blockchain
-- Les noeuds sont enregistrés auprès d'une authorité
-  - Avec un ID unique (peer ID)
-  - Avec une adresse IP
-- `chaincraft` à la responsabilité de maintenir cette liste de noeuds validateurs (ajout/suppression)
+- The authority is a contract on the blockchain
+- Nodes are registered with an authority
+  - With a unique ID (peer ID)
+  - With an IP address
+- `chaincraft` is responsible for maintaining this list of validator nodes (addition/removal)
 
-> Le noeud validateur doit communiquer avec un noeud RPC
+> The validator node must communicate with an RPC node
 
-## 3. Fonction à implémenter
+## 3. Functions to Implement
 
-### Utilitaire
+### Utility
 
-- [x] Générer un peer ID en fonction d'une seed
+- [x] Generate a peer ID based on a seed
 
-### Noeud relayer
+### Relayer Node
 
-- [ ] Démarrer un noeud relayer
-- [ ] Cluster de noeuds relayer
-- [ ] Ajouter un noeud validateur par peer ID sur la blockchain
-- [ ] Supprimer un noeud validateur par peer ID de la blockchain
-- [ ] Générer des clés partagées pour le MPC/TSS
-- [ ] Distribuer des clés partagées pour le MPC/TSS vers les nodes validateurs
-- [ ] Exécuter des transactions de bridge sur la blockchain
+- [x] Start a relayer node
+- [ ] Relayer node cluster
+- [ ] Add/Remove a validator node by peer ID on the blockchain
+- [ ] Generate shared keys for MPC/TSS
+- [ ] Distribute shared keys for MPC/TSS to validator nodes
+- [ ] Execute bridge transactions on the blockchain
 
-### Noeud validateur
+### Validator Node
 
-- [x] Démarrer un noeud utilisant les protocoles [kademlia, QUIC, Gossipsub]
-  - [x] Initialiser le réseau p2p avec un noeud bootstrap
-  - [x] Démarrer des noeuds en se connectant au bootstrap
-  - [x] Tous les noeuds du réseau se découvrent [kademlia]
-  - [x] Tous les noeuds du réseau communiquent [gossipsub]
-  - [x] Le réseau reste stable après déconnexion du bootstrap
-  - [x] Réintégrer le bootstrap dans le réseau p2p après déconnexion
-- [ ] Connecter le noeud validateur au noeud relayer
-- [ ] Écouter les évènements depuis la blockchain
-- [ ] Valider les transactions via MPC/TSS
-- [ ] Signer les transactions via MPC/TSS
-- [ ] Envoyer les transactions via MPC/TSS aux autres nodes validateurs
+- [x] Start a node using protocols [kademlia, QUIC, Gossipsub]
+  - [x] Initialize p2p network with a bootstrap node
+  - [x] Start nodes by connecting to bootstrap
+  - [x] All network nodes discover each other [kademlia]
+  - [x] All network nodes communicate [gossipsub]
+  - [x] Network remains stable after bootstrap disconnection
+  - [x] Reintegrate bootstrap into p2p network after disconnection
+- [x] Relayer node communicates with a designated validator (request/response)
+- [ ] Connect validator node to relayer node
+- [ ] Listen to events from the blockchain
+- [ ] Validate transactions via MPC/TSS
+- [ ] Sign transactions via MPC/TSS
+- [ ] Send transactions via MPC/TSS to other validator nodes
