@@ -10,11 +10,11 @@ In the interest of adhering to the eternal storage pattern, we propose to improv
 
 ### Separation of Concerns
 
-In order to improve the readability and the maintenance of this part. We suggest that the Storage contract only contains the getters and setters for the storage mappings, while externalizing the appropriate getters and setters for the bridge's use.
+In order to improve the readability and the maintenance of this part. We suggest that the `Storage contract` only contains the getters and setters for the storage mappings, while externalizing the appropriate getters and setters for the bridge's use.
 
 - **Getters**: We will place these in a library that will be used as an intermediary by other contracts.
 - **Setters**: We will create a dedicated setter contract.
-- **Access Rights**: The Setter contract (and the sudo admin) will be the only one authorized to modify the storage. This contract will be in charge of managing the access rights to its functions.
+- **Access Rights**: The Setter contract (`StorageManager`) and the `superadmin` will be the only one authorized to modify the storage. This contract will be in charge of managing the access rights to its functions.
 
 ### Improvements to Getters
 
@@ -41,7 +41,7 @@ Currently, the storage contract is designed as a monolithic eternal storage solu
 
 **StorageRead**: This library will provide getter functions tailored for use by other contracts. Similar to StorageKeyLib, it will consist solely of internal functions, ensuring that the bytecode is deployed alongside the user contracts.
 
-**StorageManager**: This contract will serve as the setter interface, utilizing the StorageRead library. Only admins or authorized roles will be able to make changes. Access control will be enforced at the function level within the StorageManager. The Storage contract itself will check access only through this manager or the 'sudo admin'. No other contracts will be permitted to call the Storage directly, except for the bridge token factory, which will set new tokens in the storage. The front or external actors will leverage StorageRead to access the getters via StorageManager, thereby avoiding the need for external calls in the library and preventing the need of deploying a standalone contract.
+**StorageManager**: This contract will serve as the setter interface, utilizing the StorageRead library. Only `admin` or `authorized roles` will be able to make changes. Access control will be enforced at the function level within the `StorageManager`. The `Storage` contract itself will check access only through this manager or the 'superadmin'. No other contracts will be permitted to call the Storage directly, except for the `bridge token factory`, which will set new tokens in the storage. The `front` or `external actors` will leverage StorageRead to access the getters via StorageManager, thereby avoiding the need for external calls in the library and preventing the need of deploying a standalone contract.
 
 ### Graph Diagram
 
@@ -64,9 +64,9 @@ graph TD;
 **Explanation of Components**
 **Storage**: The core eternal storage that holds the data. It ensures that any modifications are made through controlled setters, preventing unauthorized access.
 
-**StorageKeyLib**: This library is crucial for generating composite keys, ensuring that the keys used across different contracts are consistent and collision-free.
+**StorageKeyLib**: This library allows the generation of composite keys, ensuring that the keys used across different contracts are consistent.
 
-**StorageRead**: Provides a streamlined way for other contracts to retrieve data without.
+**StorageRead**: Provides a streamlined way for other contracts to retrieve data.
 
 **StorageManager**: Acts as the gatekeeper for data modification, ensuring that only authorized entities can change the stored information.
 
@@ -74,14 +74,17 @@ graph TD;
 
 ### Overview
 
-In the refactored storage architecture, access control is crucial to ensure secure interactions with the Storage contract. This section covers two main aspects: access to functions and mappings in the Storage contract, and the operator registry that maintains authorized addresses.
+In the refactored storage architecture, access control is crucial to ensure secure interactions with the Storage contract. This section covers two main aspects:
+
+1. access to functions and mappings in the Storage contract
+2. maintains authorized addresses in the operator registry
 
 ### Access Control Phases
 
 **Function Access Control:**
-In this refactoring, the StorageManager will handle all setter operations. When an admin wants to create or update a value, they will call the StorageManager.
+In this refactoring, the StorageManager will handle all setter operations. When an admin wants to create or update a value, he will call the StorageManager.
 The StorageManager will first check if the caller is authorized by verifying against the operator registry stored in the Storage.
-After authorization, the StorageManager will call the Storage contract to set the value. The Storage contract will verify that the caller is either the StorageManager or the sudo admin before proceeding to set the value.
+After authorization, the StorageManager will call the Storage contract to set the value. The Storage contract will verify that the caller is either the StorageManager or the `superadmin` before proceeding to set the value.
 
 **Operator Registry:**
 We will maintain a mapping (mapping(bytes32 => address)) where the key represents the operator. The StorageManager will retrieve the address for the operator from the Storage. (As the initial implementation).
@@ -97,7 +100,7 @@ Getting authorization data wil not increase the number of external calls. It imp
 The admin calls the StorageManager.
 The StorageManager checks access by querying the Storage to verify the operator.
 Upon successful authorization, the StorageManager calls the Storage to set the value.
-The Storage contract checks whether the caller is the StorageManager or the sudo admin before setting the value.
+The Storage contract checks whether the caller is the StorageManager or the `superadmin` before setting the value.
 
 ```mermaid
 sequenceDiagram
@@ -118,6 +121,57 @@ sequenceDiagram
 
 The RBAC mechanism following openzeppelin pattern will need adaptations to fit our needs.
 Concerning the update of somme contract a two step process will be implemented to ensure that the caller is the right one (set the operator and then accept the update). This will need also adaptations to be used with this RBAC mechanism.
+
+## System Actors and Roles
+
+### Actors
+
+#### superadmin
+
+- Has direct access to Storage contract alongside StorageManager
+- Can set values in Storage directly
+- Verified by Storage contract as authorized caller
+
+#### StorageManager (Contract)
+
+- Acts as the primary interface for storage modifications
+- Verifies operator access by querying Storage
+- Calls Storage to set values after authorization checks
+- One of two authorized callers for Storage (alongside superadmin)
+
+#### Bridge Token Factory (Contract)
+
+- Can set new tokens in the storage
+- Only contract besides StorageManager authorized to write to Storage for specific token operations
+
+#### admin
+
+- Can create and modify values through the StorageManager
+- Must go through StorageManager for operations
+- Part of the operator registry stored in Storage
+
+#### operator
+
+- Represents authorized addresses in the operator registry
+- Access is verified against operator registry stored in Storage
+- Must be authorized to perform operations
+
+#### External Readers
+
+- Use StorageRead to access data
+- Include front-end applications
+- Have access to getter functions via StorageManager
+
+### Permission Matrix
+
+| Actor           | Direct Storage Write | Direct Storage Read | Through StorageManager Write | Through StorageManager Read |
+|----------------|---------------------|-------------------|---------------------------|--------------------------|
+| SuperAdmin     | Yes                 | Yes               | Yes                       | Yes                      |
+| StorageManager | Yes                 | Yes               | N/A                       | N/A                      |
+| Bridge Token Factory | No    | Yes               | Yes          | Yes                      |
+| Admin          | No                  | No                | Yes                       | Yes                      |
+| Operator       | No                  | No                | Yes (Limited)             | Yes                      |
+| External Readers| No                  | No                | No                        | Yes                      |
 
 ## Conclusion
 
