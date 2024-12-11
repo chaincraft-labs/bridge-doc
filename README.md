@@ -1,41 +1,41 @@
-# Projet de Bridge décentralisé <!-- omit in toc -->
+# Decentralized Bridge Project <!-- omit in toc -->
 
-## Description du Projet <!-- omit in toc -->
+## Project Description <!-- omit in toc -->
 
-Ce projet est dédié à la documentation concernant le **bridge**. Il comprend des informations détaillées sur le fonctionnement du bridge, des schémas d'architecture et une documentation sur les concepts de **MPC** (Multi-Party Computation) et **TSS** (Threshold Signature Scheme).
+This project is dedicated to documentation concerning the **bridge**. It includes detailed information about the bridge's operation, architecture diagrams, and documentation about **MPC** (Multi-Party Computation) and **TSS** (Threshold Signature Scheme) concepts.
 
-## Table des Matières <!-- omit in toc -->
+## Table of Contents <!-- omit in toc -->
 
 - [Introduction](#introduction)
-- [Documentation sur le Bridge](#documentation-sur-le-bridge)
-- [Schémas d'Architecture](#schémas-darchitecture)
-- [Documentation sur MPC/TSS](#documentation-sur-mpctss)
-- [Licence](#licence)
+- [Bridge Documentation](#bridge-documentation)
+- [Architecture Diagrams](#architecture-diagrams)
+- [MPC/TSS Documentation](#mpctss-documentation)
+- [License](#license)
 
 ## Introduction
 
-Le bridge permet de relier différents réseaux blockchain, facilitant ainsi l'interopérabilité entre eux. Ce projet vise à fournir une compréhension approfondie de son fonctionnement, ainsi que des directives pour son utilisation et son intégration.
+The bridge enables connections between different blockchain networks, thus facilitating interoperability between them. This project aims to provide a thorough understanding of its operation, as well as guidelines for its use and integration.
 
-## Documentation sur le Bridge
+## Bridge Documentation
 
-Dans cette section, vous trouverez des informations détaillées sur :
+In this section, you will find detailed information about:
 
-- Les fonctionnalités du bridge
-- Les cas d'utilisation
-- Les limitations et considérations de sécurité
+- Bridge functionalities
+- Use cases
+- Security limitations and considerations
 
-## Schémas d'Architecture
+## Architecture Diagrams
 
-Des schémas d'architecture illustrant la structure et le fonctionnement du bridge sont disponibles ici. Ces schémas permettent de visualiser l'interaction entre les différents composants du système.
+Architecture diagrams illustrating the structure and operation of the bridge are available here. These diagrams help visualize the interaction between different system components.
 
-[Schémas](./drawio/)
+[Diagrams](./drawio/)
 
-## Documentation sur MPC/TSS
+## MPC/TSS Documentation
 
-Cette section fournit une explication des concepts de **MPC** et **TSS** :
+This section provides an explanation of **MPC** and **TSS** concepts:
 
 [MPC/TSS](./mpc-tss/)
 
-## Licence
+## License
 
-Tous droits réservés. La copie, la distribution ou la modification non autorisée de ce document est strictement interdite.
+All rights reserved. Unauthorized copying, distribution, or modification of this document is strictly prohibited.
