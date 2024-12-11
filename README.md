@@ -20,9 +20,8 @@ The bridge enables connections between different blockchain networks, thus facil
 
 In this section, you will find detailed information about:
 
-- Bridge functionalities
-- Use cases
-- Security limitations and considerations
+- [Bridge smart contracts](./bridge_smart_contracts/README.md)
+- [p2p network - relayer | validator](./bridge_nodes/README.md)
 
 ## Architecture Diagrams
 
@@ -34,7 +33,7 @@ Architecture diagrams illustrating the structure and operation of the bridge are
 
 This section provides an explanation of **MPC** and **TSS** concepts:
 
-[MPC/TSS](./mpc-tss/)
+[MPC/TSS](./mpc-tss/README.md)
 
 ## License
 

@@ -1,6 +1,6 @@
 # To be done
 
-description of:
+## description of
 
 - current mechanism (operator registry)
 - future mechanism:

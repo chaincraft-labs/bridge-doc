@@ -1,8 +1,42 @@
-# Bridge v1 - Centralized POC
+# Bridge v1 - Centralized POC <!-- omit in toc -->
 
-## About this Guide
+[back](../README.md)
+
+## Overview <!-- omit in toc -->
 
 This guide explains how to set up and run a bridge between Ethereum (Geth) and Harmonie blockchains.
+
+## Table of Contents <!-- omit in toc -->
+
+- [Prerequisites](#prerequisites)
+  - [Required Accounts](#required-accounts)
+- [System Architecture](#system-architecture)
+- [Setting Up Ethereum with Geth](#setting-up-ethereum-with-geth)
+  - [1. Installing Geth](#1-installing-geth)
+  - [2. Running Geth in Development Mode](#2-running-geth-in-development-mode)
+  - [3. Account Setup on Geth](#3-account-setup-on-geth)
+    - [A. Import Private Keys](#a-import-private-keys)
+    - [B. Fund the Accounts](#b-fund-the-accounts)
+    - [C. Verify Account Setup](#c-verify-account-setup)
+- [Setting Up Harmonie](#setting-up-harmonie)
+  - [1. Harmonie Node Setup](#1-harmonie-node-setup)
+  - [2. Start Harmonie Development Node](#2-start-harmonie-development-node)
+  - [3. Fund Accounts on Harmonie](#3-fund-accounts-on-harmonie)
+- [Add blockchain/network to your wallet](#add-blockchainnetwork-to-your-wallet)
+- [Setting Up RabbitMQ](#setting-up-rabbitmq)
+  - [1. Install RabbitMQ](#1-install-rabbitmq)
+  - [2. Queue Configuration](#2-queue-configuration)
+- [Deploying Bridge Smart Contracts](#deploying-bridge-smart-contracts)
+  - [1. Clone and Setup Bridge Repository](#1-clone-and-setup-bridge-repository)
+  - [2. Configure and Deploy](#2-configure-and-deploy)
+- [Setting Up Relayer Nodes](#setting-up-relayer-nodes)
+  - [1. Relayer Installation](#1-relayer-installation)
+  - [2. Configure Relayer](#2-configure-relayer)
+  - [3. Start Relayer Services](#3-start-relayer-services)
+- [Setting Up Bridge Frontend (dApp)](#setting-up-bridge-frontend-dapp)
+  - [1. Install Frontend](#1-install-frontend)
+  - [2. Configure Environment](#2-configure-environment)
+  - [3. Start Frontend](#3-start-frontend)
 
 ## Prerequisites
 
