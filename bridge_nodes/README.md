@@ -1,4 +1,20 @@
-# Description of the Node Network within the Decentralized Bridge
+# Description of the Node Network within the Decentralized Bridge <!-- omit in toc -->
+
+[back](../README.md)
+
+## Overview <!-- omit in toc -->
+
+## Table of Contents <!-- omit in toc -->
+
+- [1. Relayer Nodes](#1-relayer-nodes)
+  - [Relayer Node Network (Centralized)](#relayer-node-network-centralized)
+- [2. Validator Nodes](#2-validator-nodes)
+  - [Validator Node Network](#validator-node-network)
+  - [Node Registration](#node-registration)
+- [3. Functions to Implement](#3-functions-to-implement)
+  - [Utility](#utility)
+  - [Relayer Node](#relayer-node)
+  - [Validator Node](#validator-node)
 
 ## 1. Relayer Nodes
 
