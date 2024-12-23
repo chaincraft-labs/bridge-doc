@@ -44,11 +44,11 @@ This guide explains how to set up and run a bridge between Ethereum (Geth) and H
 
 Add these testing accounts to your wallet by importing their private keys:
 
-| Account | Public Key | Private Key | Role |
-|---------|------------|-------------|----- |
-| admin | 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 | ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 | Deploy contracts |
-| user | 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 | 59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d | Transfer crypto |
-| oracle | 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC | 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a | Execute contracts |
+| Account | Public Key                                 | Private Key                                                        | Role              |
+| ------- | ------------------------------------------ | ------------------------------------------------------------------ | ----------------- |
+| admin   | 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 | ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80   | Deploy contracts  |
+| user    | 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 | 59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d   | Transfer crypto   |
+| oracle  | 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC | 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a | Execute contracts |
 
 **Important**: These accounts are for testing purposes only. Never use them in production. They are available with [Anvil](https://github.com/foundry-rs/foundry/tree/master/crates/anvil)
 
@@ -113,7 +113,7 @@ graph TB
 geth --datadir /root/.ethereum --dev.period 12 --http --http.corsdomain '*' --http.api web3,eth,debug,personal,net --vmdebug --dev
 ```
 
-*Note: `/root/.ethereum` is the default data directory. You can specify a different location.*
+_Note: `/root/.ethereum` is the default data directory. You can specify a different location._
 
 ### 3. Account Setup on Geth
 
@@ -133,7 +133,7 @@ echo "59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d" > user
 clef --keystore /root/.ethereum/keystore importraw user
 ```
 
-*Note: The password must be at least 10 characters long.*
+_Note: The password must be at least 10 characters long._
 
 #### B. Fund the Accounts
 
@@ -190,7 +190,7 @@ eth.getBalance(eth.accounts[3])/1e18  # user
 50
 ```
 
-*Note: Wait for block finality to see updated balances.*
+_Note: Wait for block finality to see updated balances._
 
 ## Setting Up Harmonie
 
@@ -241,10 +241,10 @@ Replace `<path>` with a folder name
 
 ## Add blockchain/network to your wallet
 
-| Network | rpc | chain id | Token symbol |
-|---------|------------|-------------|----- |
-| geth | http://127.0.0.1:8545 | 1337 | ETH |
-| harmonie | http://127.0.0.1:9944 |440 | AFT |
+| Network  | rpc                   | chain id | Token symbol |
+| -------- | --------------------- | -------- | ------------ |
+| geth     | http://127.0.0.1:8545 | 1337     | ETH          |
+| harmonie | http://127.0.0.1:9944 | 440      | AFT          |
 
 ## Setting Up RabbitMQ
 
@@ -266,24 +266,34 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-ma
 ```sh
 git clone https://github.com/chaincraft-labs/bridge.git
 cd bridge/hardhat
+
+npm install
 ```
 
 ### 2. Configure and Deploy
 
-1. Set active configuration in config file:
+1. Set environment variables:
+
+rename `.env.example` to `.env` and add the following:
+
+- your alchemy and etherscan api keys.
+- The private keys of the DEPLOYER account and of the USER1 and USER2 accounts.
+- The server address (the one used for the relayer).
+- The ports you want to use for local nodes that would run on your machine.
+
+2. Set active configuration in config file:
 
 ```yaml
-{
-    "activeConfig": "localNode",
-    ...
-}
+{ "activeConfig": "localNode", ... }
 ```
 
-2. Deploy contracts
+3. Deploy contracts
 
 ```sh
 ./scripts/09_deployAndConfig.sh
 ```
+
+If the script is not executable run `cd scripts` then `chmod +x ./scripts/09_deployAndConfig.sh` in the terminal.
 
 ## Setting Up Relayer Nodes
 
