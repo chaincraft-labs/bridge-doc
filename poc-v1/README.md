@@ -263,12 +263,23 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-ma
 
 ### 1. Clone and Setup Bridge Repository
 
+1. Clone the repository and install dependencies:
+
 ```sh
 git clone https://github.com/chaincraft-labs/bridge.git
 cd bridge/hardhat
 
 npm install
 ```
+
+2. Install jq (if not already installed):
+
+   - On MacOS: `brew install jq`
+   - On Debian/Ubuntu: `sudo apt-get install jq`
+   - On Fedora: `sudo dnf install jq`
+   - On CentOS: `sudo yum install jq`
+
+   Check the installation by running `jq --version`.
 
 ### 2. Configure and Deploy
 
