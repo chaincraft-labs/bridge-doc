@@ -1176,19 +1176,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nn7APUXod1xwGkL6qqji-1" value="Validator Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-1" value="Validator Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#FF8000;gradientColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="20" y="20" width="150" height="874" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-2" value="Validator Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-2" value="Validator Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#FFB366;gradientColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="220" y="20" width="150" height="874" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-3" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-3" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#FF3399;gradientColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="482" y="20" width="150" height="874" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-4" value="Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-4" value="Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#66FFFF;gradientColor=#99CCFF;" vertex="1" parent="1">
           <mxGeometry x="787" y="20" width="150" height="874" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-5" value="Existing Validator Nodes" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-5" value="Existing Validator Nodes" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#66FFFF;gradientColor=#66FFB3;" vertex="1" parent="1">
           <mxGeometry x="987" y="20" width="196" height="874" as="geometry" />
         </mxCell>
         <mxCell id="nn7APUXod1xwGkL6qqji-6" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#d6b656;height=20;width=30;fillColor=#fff2cc;" vertex="1" parent="1">
@@ -1252,16 +1252,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-17" value="Manual validation&#xa;of team credentials" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-17" value="Manual validation&#xa;of team credentials" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;gradientColor=#FFFFCC;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="478" y="143" width="159" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-18" value="Update internal&#xa;authorized nodes list" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-18" value="Update internal&#xa;authorized nodes list" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;gradientColor=#FFFFCC;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="472" y="306" width="171" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-19" value="Trigger MPC TSS&#xa;key generation" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-19" value="Trigger MPC TSS&#xa;key generation" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;gradientColor=#FFFFCC;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="482" y="524" width="150" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-20" value="Node fully authorized&#xa;and operational" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-20" value="Node fully authorized&#xa;and operational" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;gradientColor=#FFFFCC;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="208" y="742" width="175" height="67" as="geometry" />
         </mxCell>
       </root>
