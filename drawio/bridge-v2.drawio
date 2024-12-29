@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="7">
   <diagram name="MPC TSS" id="_NhQ68Ce09rdGa0aBCM7">
     <mxGraphModel dx="2522" dy="4687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
@@ -1171,7 +1171,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="wG_yRxlY0Jdt2i3VAH8u" name="Authorized node">
+  <diagram id="wG_yRxlY0Jdt2i3VAH8u" name="Authorize node">
     <mxGraphModel dx="1018" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1182,7 +1182,7 @@
         <mxCell id="nn7APUXod1xwGkL6qqji-2" value="Validator Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#FFB366;gradientColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="220" y="20" width="150" height="874" as="geometry" />
         </mxCell>
-        <mxCell id="nn7APUXod1xwGkL6qqji-3" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#FF3399;gradientColor=#FF99CC;" vertex="1" parent="1">
+        <mxCell id="nn7APUXod1xwGkL6qqji-3" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#99FFFF;gradientColor=#9933FF;" vertex="1" parent="1">
           <mxGeometry x="482" y="20" width="150" height="874" as="geometry" />
         </mxCell>
         <mxCell id="nn7APUXod1xwGkL6qqji-4" value="Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#66FFFF;gradientColor=#99CCFF;" vertex="1" parent="1">
@@ -1263,6 +1263,103 @@
         </mxCell>
         <mxCell id="nn7APUXod1xwGkL6qqji-20" value="Node fully authorized&#xa;and operational" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;gradientColor=#FFFFCC;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="208" y="742" width="175" height="67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MDElBqP2lpWPvXwxVSmA" name="Restrict node">
+    <mxGraphModel dx="1018" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EwXbFlimkvMC_y4t27dY-1" value="Unauthorized Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#FF3333;gradientColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="57" y="20" width="161" height="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-2" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#99FFFF;gradientColor=#9933FF;" vertex="1" parent="1">
+          <mxGeometry x="307" y="20" width="150" height="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-3" value="Validator Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;rounded=1;shadow=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#66FFFF;gradientColor=#66FFB3;" vertex="1" parent="1">
+          <mxGeometry x="507" y="20" width="150" height="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-4" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="127" y="334" width="266" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-5" value="[peer_id not authorized]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="EwXbFlimkvMC_y4t27dY-4">
+          <mxGeometry x="30" width="236" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-6" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="127" y="627" width="466" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-7" value="[peer_id not authorized]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="EwXbFlimkvMC_y4t27dY-6">
+          <mxGeometry x="30" width="436" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-8" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="117" y="144" width="557" height="586" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-9" value="[Connection attempt to Relayer]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="EwXbFlimkvMC_y4t27dY-8">
+          <mxGeometry x="30" width="527" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-10" value="[Connection attempt to Validator]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="EwXbFlimkvMC_y4t27dY-8">
+          <mxGeometry y="298" width="557" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-11" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" vertex="1" parent="1">
+          <mxGeometry x="20" y="807" width="236" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-12" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="EwXbFlimkvMC_y4t27dY-11">
+          <mxGeometry width="236" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-13" value="Connect to relayer node" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="EwXbFlimkvMC_y4t27dY-1" target="EwXbFlimkvMC_y4t27dY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="268" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-14" value="Check peer_id against&#xa;authorized list" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="EwXbFlimkvMC_y4t27dY-2" target="EwXbFlimkvMC_y4t27dY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="433" y="284" />
+              <mxPoint x="433" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-15" value="Connection rejected" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="EwXbFlimkvMC_y4t27dY-2" target="EwXbFlimkvMC_y4t27dY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="271" y="407" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-16" value="Connect to validator node" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="EwXbFlimkvMC_y4t27dY-1" target="EwXbFlimkvMC_y4t27dY-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="368" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-17" value="Check peer_id against&#xa;authorized list" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="EwXbFlimkvMC_y4t27dY-3" target="EwXbFlimkvMC_y4t27dY-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="633" y="577" />
+              <mxPoint x="633" y="607" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-18" value="Connection rejected" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="EwXbFlimkvMC_y4t27dY-3" target="EwXbFlimkvMC_y4t27dY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-19" value="Attempt to join network via any node" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;gradientColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="113" y="95" width="494" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-20" value="All nodes maintain and enforce&#xa;the same authorized nodes list" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;gradientColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="113" y="740" width="494" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="EwXbFlimkvMC_y4t27dY-21" value="Node cannot participate in:&#xa;1. P2P communication&#xa;2. MPC TSS signing&#xa;3. Transaction validation&#xa;4. Gossip protocol" style="fillColor=#99FFFF;strokeColor=#9E916F;rounded=1;shadow=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;gradientColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="30" y="827" width="216" height="123" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
