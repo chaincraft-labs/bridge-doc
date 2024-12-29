@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="6">
   <diagram name="MPC TSS" id="_NhQ68Ce09rdGa0aBCM7">
     <mxGraphModel dx="2522" dy="4687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
@@ -1167,6 +1167,102 @@
         </mxCell>
         <mxCell id="bkcv-cmdeJel5F8IjrhD-16" value="QUIC" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wG_yRxlY0Jdt2i3VAH8u" name="Authorized node">
+    <mxGraphModel dx="1018" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nn7APUXod1xwGkL6qqji-1" value="Validator Team" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="874" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-2" value="Validator Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="874" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-3" value="Relayer Node" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="482" y="20" width="150" height="874" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-4" value="Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="787" y="20" width="150" height="874" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-5" value="Existing Validator Nodes" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="987" y="20" width="196" height="874" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-6" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#d6b656;height=20;width=30;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="284" y="373" width="812" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-7" value="[Broadcast to all validators]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="nn7APUXod1xwGkL6qqji-6">
+          <mxGeometry x="30" width="782" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-8" value="par" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#b85450;height=20;width=30;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="284" y="591" width="812" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-9" value="[Distribute MPC TSS keys]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="nn7APUXod1xwGkL6qqji-8">
+          <mxGeometry x="30" width="782" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-10" value="Submit authorization request (peer_id, IP, port, domain)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-1" target="nn7APUXod1xwGkL6qqji-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-11" value="Register validator node on-chain" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-3" target="nn7APUXod1xwGkL6qqji-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-12" value="Emit ValidatorAdded event" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-4" target="nn7APUXod1xwGkL6qqji-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="286" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-13" value="Distribute updated authorized nodes list" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-3" target="nn7APUXod1xwGkL6qqji-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-14" value="Send authorized nodes list" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-3" target="nn7APUXod1xwGkL6qqji-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-15" value="Send new MPC TSS key shares" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-3" target="nn7APUXod1xwGkL6qqji-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="664" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-16" value="Send MPC TSS key share" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nn7APUXod1xwGkL6qqji-3" target="nn7APUXod1xwGkL6qqji-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="712" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-17" value="Manual validation&#xa;of team credentials" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="478" y="143" width="159" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-18" value="Update internal&#xa;authorized nodes list" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="472" y="306" width="171" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-19" value="Trigger MPC TSS&#xa;key generation" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="482" y="524" width="150" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7APUXod1xwGkL6qqji-20" value="Node fully authorized&#xa;and operational" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="208" y="742" width="175" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
